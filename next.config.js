@@ -1,8 +1,11 @@
+const withPlugins = require('next-compose-plugins');
+const flowbite = require("flowbite/plugin")
 const nextConfig = {
   trailingSlash: true,
   output: 'export'
 }
-module.exports = {
-  nextConfig,
-  plugins: [require('flowbite/plugin')]
-}
+
+module.exports = withPlugins([
+  [nextConfig],
+  [flowbite]
+]);
