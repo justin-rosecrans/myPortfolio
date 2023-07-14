@@ -1,23 +1,11 @@
-exports.id = 444;
-exports.ids = [444];
+"use strict";
+exports.id = 894;
+exports.ids = [894];
 exports.modules = {
-
-/***/ 6708:
-/***/ ((module) => {
-
-// Exports
-module.exports = {
-	"style": {"fontFamily":"'__Inter_20951f', '__Inter_Fallback_20951f'","fontStyle":"normal"},
-	"className": "__className_20951f"
-};
-
-
-/***/ }),
 
 /***/ 6738:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -45,10 +33,41 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
+/***/ 7549:
+/***/ ((module, exports, __webpack_require__) => {
+
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "addLocale", ({
+    enumerable: true,
+    get: function() {
+        return addLocale;
+    }
+}));
+const _normalizetrailingslash = __webpack_require__(8909);
+const addLocale = function(path) {
+    for(var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++){
+        args[_key - 1] = arguments[_key];
+    }
+    if (false) {}
+    return path;
+};
+if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
+    Object.defineProperty(exports.default, "__esModule", {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+} //# sourceMappingURL=add-locale.js.map
+
+
+/***/ }),
+
 /***/ 6504:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -88,7 +107,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 9542:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -175,7 +193,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 2516:
 /***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -253,7 +270,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 8709:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -305,7 +321,15 @@ function urlToUrlWithoutFlightMarker(url) {
     const urlWithoutFlightParameters = new URL(url, location.origin);
     urlWithoutFlightParameters.searchParams.delete(_approuterheaders.NEXT_RSC_UNION_QUERY);
     if (true) {
-        if (false) {}
+        if (true) {
+            if (urlWithoutFlightParameters.pathname.endsWith("/index.txt")) {
+                // Slice off `/index.txt` from the end of the pathname
+                urlWithoutFlightParameters.pathname = urlWithoutFlightParameters.pathname.slice(0, -"/index.txt".length);
+            } else {
+                // Slice off `.txt` from the end of the pathname
+                urlWithoutFlightParameters.pathname = urlWithoutFlightParameters.pathname.slice(0, -".txt".length);
+            }
+        }
     }
     return urlWithoutFlightParameters;
 }
@@ -633,7 +657,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 4280:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -670,7 +693,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 6064:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -700,7 +722,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 7734:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -826,7 +847,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 7296:
 /***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -867,7 +887,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 6499:
 /***/ ((module, exports) => {
 
-"use strict";
 /**
  * Used to cache in createInfinitePromise
  */ 
@@ -908,7 +927,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 2698:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -1303,7 +1321,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 1860:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -1359,7 +1376,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 4595:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 // useLayoutSegments() // Only the segments for the current place. ['children', 'dashboard', 'children', 'integrations'] -> /dashboard/integrations (/dashboard/layout.js would get ['children', 'dashboard', 'children', 'integrations'])
 
 Object.defineProperty(exports, "__esModule", ({
@@ -1565,7 +1581,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 3166:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -1647,7 +1662,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 9500:
 /***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -1691,7 +1705,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 1736:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -1791,7 +1804,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 972:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -1874,7 +1886,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 7833:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -1906,7 +1917,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 2423:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -1956,7 +1966,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 2105:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2060,7 +2069,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 575:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2165,7 +2173,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 8970:
 /***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2194,7 +2201,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 5441:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2256,7 +2262,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 6266:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2329,7 +2334,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 1685:
 /***/ ((module, exports) => {
 
-"use strict";
 /**
  * Create data fetching record for Promise.
  */ // TODO-APP: change `any` to type inference.
@@ -2372,7 +2376,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 5719:
 /***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2401,7 +2404,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 4025:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2449,7 +2451,13 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, currentBuild
     try {
         let fetchUrl = new URL(url);
         if (true) {
-            if (false) {}
+            if (true) {
+                if (fetchUrl.pathname.endsWith("/")) {
+                    fetchUrl.pathname += "index.txt";
+                } else {
+                    fetchUrl.pathname += ".txt";
+                }
+            }
         }
         // Add unique cache query to avoid caching conflicts on CDN which don't respect to Vary header
         fetchUrl.searchParams.set(_approuterheaders.NEXT_RSC_UNION_QUERY, uniqueCacheQuery);
@@ -2463,7 +2471,11 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, currentBuild
         const contentType = res.headers.get("content-type") || "";
         let isFlightResponse = contentType === _approuterheaders.RSC_CONTENT_TYPE_HEADER;
         if (true) {
-            if (false) {}
+            if (true) {
+                if (!isFlightResponse) {
+                    isFlightResponse = contentType.startsWith("text/plain");
+                }
+            }
         }
         // If fetch returns something different than flight response handle it like a mpa navigation
         // If the fetch was not 200, we also handle it like a mpa navigation
@@ -2506,7 +2518,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 1246:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2589,7 +2600,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 1806:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2668,7 +2678,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 2303:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2750,7 +2759,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 445:
 /***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2813,7 +2821,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 8414:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2866,7 +2873,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 5397:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2930,7 +2936,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 7508:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -2969,7 +2974,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 4238:
 /***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3027,7 +3031,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 9527:
 /***/ ((module, exports) => {
 
-"use strict";
 /**
  * Read record value or throw Promise if it's not resolved yet.
  */ 
@@ -3063,7 +3066,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 7543:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3162,7 +3164,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 9524:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3211,7 +3212,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 1184:
 /***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3239,7 +3239,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 5567:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3498,7 +3497,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 3433:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3566,7 +3564,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 4727:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3599,7 +3596,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 3537:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3698,7 +3694,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 1414:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3740,7 +3735,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 4743:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3914,7 +3908,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 2378:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -3992,7 +3985,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 1835:
 /***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -4057,7 +4049,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 6421:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -4131,7 +4122,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 5479:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -4176,7 +4166,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 8655:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -4212,7 +4201,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 3469:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -4266,7 +4254,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 9150:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -4302,7 +4289,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 8674:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -4432,252 +4418,329 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 9556:
-/***/ ((module, exports, __webpack_require__) => {
+/***/ 6217:
+/***/ ((module, exports) => {
 
-"use strict";
-/* __next_internal_client_entry_do_not_use__  cjs */ 
+
 Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
-Object.defineProperty(exports, "Image", ({
+Object.defineProperty(exports, "getDomainLocale", ({
     enumerable: true,
     get: function() {
-        return Image;
+        return getDomainLocale;
     }
 }));
-const _interop_require_default = __webpack_require__(5967);
-const _interop_require_wildcard = __webpack_require__(1113);
-const _react = /*#__PURE__*/ _interop_require_wildcard._(__webpack_require__(8038));
-const _head = /*#__PURE__*/ _interop_require_default._(__webpack_require__(6864));
-const _getimgprops = __webpack_require__(1830);
-const _imageconfig = __webpack_require__(2210);
-const _imageconfigcontext = __webpack_require__(5359);
-const _warnonce = __webpack_require__(8658);
-const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(1260));
-// This is replaced by webpack define plugin
-const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
-if (true) {
-    globalThis.__NEXT_IMAGE_IMPORTED = true;
-}
-// See https://stackoverflow.com/q/39777833/266535 for why we use this ref
-// handler instead of the img's onLoad attribute.
-function handleLoading(img, placeholder, onLoadRef, onLoadingCompleteRef, setBlurComplete, unoptimized) {
-    const src = img == null ? void 0 : img.src;
-    if (!img || img["data-loaded-src"] === src) {
-        return;
+const basePath = (/* unused pure expression or super */ null && ( false || ""));
+function getDomainLocale(path, locale, locales, domainLocales) {
+    if (false) {} else {
+        return false;
     }
-    img["data-loaded-src"] = src;
-    const p = "decode" in img ? img.decode() : Promise.resolve();
-    p.catch(()=>{}).then(()=>{
-        if (!img.parentElement || !img.isConnected) {
-            // Exit early in case of race condition:
-            // - onload() is called
-            // - decode() is called but incomplete
-            // - unmount is called
-            // - decode() completes
-            return;
-        }
-        if (placeholder === "blur") {
-            setBlurComplete(true);
-        }
-        if (onLoadRef == null ? void 0 : onLoadRef.current) {
-            // Since we don't have the SyntheticEvent here,
-            // we must create one with the same shape.
-            // See https://reactjs.org/docs/events.html
-            const event = new Event("load");
-            Object.defineProperty(event, "target", {
-                writable: false,
-                value: img
-            });
-            let prevented = false;
-            let stopped = false;
-            onLoadRef.current({
-                ...event,
-                nativeEvent: event,
-                currentTarget: img,
-                target: img,
-                isDefaultPrevented: ()=>prevented,
-                isPropagationStopped: ()=>stopped,
-                persist: ()=>{},
-                preventDefault: ()=>{
-                    prevented = true;
-                    event.preventDefault();
-                },
-                stopPropagation: ()=>{
-                    stopped = true;
-                    event.stopPropagation();
-                }
-            });
-        }
-        if (onLoadingCompleteRef == null ? void 0 : onLoadingCompleteRef.current) {
-            onLoadingCompleteRef.current(img);
-        }
-        if (false) {}
-    });
 }
-function getDynamicProps(fetchPriority) {
-    const [majorStr, minorStr] = _react.version.split(".");
-    const major = parseInt(majorStr, 10);
-    const minor = parseInt(minorStr, 10);
-    if (major > 18 || major === 18 && minor >= 3) {
-        // In React 18.3.0 or newer, we must use camelCase
-        // prop to avoid "Warning: Invalid DOM property".
-        // See https://github.com/facebook/react/pull/25927
-        return {
-            fetchPriority
-        };
-    }
-    // In React 18.2.0 or older, we must use lowercase prop
-    // to avoid "Warning: Invalid DOM property".
-    return {
-        fetchpriority: fetchPriority
-    };
-}
-const ImageElement = /*#__PURE__*/ (0, _react.forwardRef)((param, forwardedRef)=>{
-    let { src, srcSet, sizes, height, width, decoding, className, style, fetchPriority, placeholder, loading, unoptimized, fill, onLoadRef, onLoadingCompleteRef, setBlurComplete, setShowAltText, onLoad, onError, ...rest } = param;
-    return /*#__PURE__*/ _react.default.createElement("img", {
-        ...rest,
-        ...getDynamicProps(fetchPriority),
-        // It's intended to keep `loading` before `src` because React updates
-        // props in order which causes Safari/Firefox to not lazy load properly.
-        // See https://github.com/facebook/react/issues/25883
-        loading: loading,
-        width: width,
-        height: height,
-        decoding: decoding,
-        "data-nimg": fill ? "fill" : "1",
-        className: className,
-        style: style,
-        // It's intended to keep `src` the last attribute because React updates
-        // attributes in order. If we keep `src` the first one, Safari will
-        // immediately start to fetch `src`, before `sizes` and `srcSet` are even
-        // updated by React. That causes multiple unnecessary requests if `srcSet`
-        // and `sizes` are defined.
-        // This bug cannot be reproduced in Chrome or Firefox.
-        sizes: sizes,
-        srcSet: srcSet,
-        src: src,
-        ref: (0, _react.useCallback)((img)=>{
-            if (forwardedRef) {
-                if (typeof forwardedRef === "function") forwardedRef(img);
-                else if (typeof forwardedRef === "object") {
-                    // @ts-ignore - .current is read only it's usually assigned by react internally
-                    forwardedRef.current = img;
-                }
-            }
-            if (!img) {
-                return;
-            }
-            if (onError) {
-                // If the image has an error before react hydrates, then the error is lost.
-                // The workaround is to wait until the image is mounted which is after hydration,
-                // then we set the src again to trigger the error handler (if there was an error).
-                // eslint-disable-next-line no-self-assign
-                img.src = img.src;
-            }
-            if (false) {}
-            if (img.complete) {
-                handleLoading(img, placeholder, onLoadRef, onLoadingCompleteRef, setBlurComplete, unoptimized);
-            }
-        }, [
-            src,
-            placeholder,
-            onLoadRef,
-            onLoadingCompleteRef,
-            setBlurComplete,
-            onError,
-            unoptimized,
-            forwardedRef
-        ]),
-        onLoad: (event)=>{
-            const img = event.currentTarget;
-            handleLoading(img, placeholder, onLoadRef, onLoadingCompleteRef, setBlurComplete, unoptimized);
-        },
-        onError: (event)=>{
-            // if the real image fails to load, this will ensure "alt" is visible
-            setShowAltText(true);
-            if (placeholder === "blur") {
-                // If the real image fails to load, this will still remove the placeholder.
-                setBlurComplete(true);
-            }
-            if (onError) {
-                onError(event);
-            }
-        }
-    });
-});
-const Image = /*#__PURE__*/ (0, _react.forwardRef)((props, forwardedRef)=>{
-    const configContext = (0, _react.useContext)(_imageconfigcontext.ImageConfigContext);
-    const config = (0, _react.useMemo)(()=>{
-        const c = configEnv || configContext || _imageconfig.imageConfigDefault;
-        const allSizes = [
-            ...c.deviceSizes,
-            ...c.imageSizes
-        ].sort((a, b)=>a - b);
-        const deviceSizes = c.deviceSizes.sort((a, b)=>a - b);
-        return {
-            ...c,
-            allSizes,
-            deviceSizes
-        };
-    }, [
-        configContext
-    ]);
-    const { onLoad, onLoadingComplete } = props;
-    const onLoadRef = (0, _react.useRef)(onLoad);
-    (0, _react.useEffect)(()=>{
-        onLoadRef.current = onLoad;
-    }, [
-        onLoad
-    ]);
-    const onLoadingCompleteRef = (0, _react.useRef)(onLoadingComplete);
-    (0, _react.useEffect)(()=>{
-        onLoadingCompleteRef.current = onLoadingComplete;
-    }, [
-        onLoadingComplete
-    ]);
-    const [blurComplete, setBlurComplete] = (0, _react.useState)(false);
-    const [showAltText, setShowAltText] = (0, _react.useState)(false);
-    const { props: imgAttributes, meta: imgMeta } = (0, _getimgprops.getImgProps)(props, {
-        defaultLoader: _imageloader.default,
-        imgConf: config,
-        blurComplete,
-        showAltText
-    });
-    return /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/ _react.default.createElement(ImageElement, {
-        ...imgAttributes,
-        unoptimized: imgMeta.unoptimized,
-        placeholder: imgMeta.placeholder,
-        fill: imgMeta.fill,
-        onLoadRef: onLoadRef,
-        onLoadingCompleteRef: onLoadingCompleteRef,
-        setBlurComplete: setBlurComplete,
-        setShowAltText: setShowAltText,
-        ref: forwardedRef
-    }), imgMeta.priority ? // for browsers that do not support `imagesrcset`, and in those cases
-    // it would likely cause the incorrect image to be preloaded.
-    //
-    // https://html.spec.whatwg.org/multipage/semantics.html#attr-link-imagesrcset
-    /*#__PURE__*/ _react.default.createElement(_head.default, null, /*#__PURE__*/ _react.default.createElement("link", {
-        key: "__nimg-" + imgAttributes.src + imgAttributes.srcSet + imgAttributes.sizes,
-        rel: "preload",
-        as: "image",
-        href: imgAttributes.srcSet ? undefined : imgAttributes.src,
-        imageSrcSet: imgAttributes.srcSet,
-        imageSizes: imgAttributes.sizes,
-        crossOrigin: imgAttributes.crossOrigin,
-        referrerPolicy: imgAttributes.referrerPolicy,
-        ...getDynamicProps(imgAttributes.fetchPriority)
-    })) : null);
-});
 if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
     Object.defineProperty(exports.default, "__esModule", {
         value: true
     });
     Object.assign(exports.default, exports);
     module.exports = exports.default;
-} //# sourceMappingURL=image-component.js.map
+} //# sourceMappingURL=get-domain-locale.js.map
+
+
+/***/ }),
+
+/***/ 5457:
+/***/ ((module, exports, __webpack_require__) => {
+
+/* __next_internal_client_entry_do_not_use__  cjs */ 
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "default", ({
+    enumerable: true,
+    get: function() {
+        return _default;
+    }
+}));
+const _interop_require_default = __webpack_require__(5967);
+const _react = /*#__PURE__*/ _interop_require_default._(__webpack_require__(8038));
+const _resolvehref = __webpack_require__(982);
+const _islocalurl = __webpack_require__(120);
+const _formaturl = __webpack_require__(2336);
+const _utils = __webpack_require__(8423);
+const _addlocale = __webpack_require__(7549);
+const _routercontext = __webpack_require__(7160);
+const _approutercontext = __webpack_require__(7085);
+const _useintersection = __webpack_require__(524);
+const _getdomainlocale = __webpack_require__(6217);
+const _addbasepath = __webpack_require__(6738);
+const _routerreducertypes = __webpack_require__(1835);
+const prefetched = new Set();
+function prefetch(router, href, as, options, appOptions, isAppRouter) {
+    if (true) {
+        return;
+    }
+    // app-router supports external urls out of the box so it shouldn't short-circuit here as support for e.g. `replace` is added in the app-router.
+    if (!isAppRouter && !(0, _islocalurl.isLocalURL)(href)) {
+        return;
+    }
+    // We should only dedupe requests when experimental.optimisticClientCache is
+    // disabled.
+    if (!options.bypassPrefetchedCheck) {
+        const locale = typeof options.locale !== "undefined" ? options.locale : "locale" in router ? router.locale : undefined;
+        const prefetchedKey = href + "%" + as + "%" + locale;
+        // If we've already fetched the key, then don't prefetch it again!
+        if (prefetched.has(prefetchedKey)) {
+            return;
+        }
+        // Mark this URL as prefetched.
+        prefetched.add(prefetchedKey);
+    }
+    const prefetchPromise = isAppRouter ? router.prefetch(href, appOptions) : router.prefetch(href, as, options);
+    // Prefetch the JSON page if asked (only in the client)
+    // We need to handle a prefetch error here since we may be
+    // loading with priority which can reject but we don't
+    // want to force navigation since this is only a prefetch
+    Promise.resolve(prefetchPromise).catch((err)=>{
+        if (false) {}
+    });
+}
+function isModifiedEvent(event) {
+    const eventTarget = event.currentTarget;
+    const target = eventTarget.getAttribute("target");
+    return target && target !== "_self" || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || // triggers resource download
+    event.nativeEvent && event.nativeEvent.which === 2;
+}
+function linkClicked(e, router, href, as, replace, shallow, scroll, locale, isAppRouter, prefetchEnabled) {
+    const { nodeName } = e.currentTarget;
+    // anchors inside an svg have a lowercase nodeName
+    const isAnchorNodeName = nodeName.toUpperCase() === "A";
+    if (isAnchorNodeName && (isModifiedEvent(e) || // app-router supports external urls out of the box so it shouldn't short-circuit here as support for e.g. `replace` is added in the app-router.
+    !isAppRouter && !(0, _islocalurl.isLocalURL)(href))) {
+        // ignore click for browser’s default behavior
+        return;
+    }
+    e.preventDefault();
+    const navigate = ()=>{
+        // If the router is an NextRouter instance it will have `beforePopState`
+        const routerScroll = scroll != null ? scroll : true;
+        if ("beforePopState" in router) {
+            router[replace ? "replace" : "push"](href, as, {
+                shallow,
+                locale,
+                scroll: routerScroll
+            });
+        } else {
+            router[replace ? "replace" : "push"](as || href, {
+                forceOptimisticNavigation: !prefetchEnabled,
+                scroll: routerScroll
+            });
+        }
+    };
+    if (isAppRouter) {
+        _react.default.startTransition(navigate);
+    } else {
+        navigate();
+    }
+}
+function formatStringOrUrl(urlObjOrString) {
+    if (typeof urlObjOrString === "string") {
+        return urlObjOrString;
+    }
+    return (0, _formaturl.formatUrl)(urlObjOrString);
+}
+/**
+ * React Component that enables client-side transitions between routes.
+ */ const Link = /*#__PURE__*/ _react.default.forwardRef(function LinkComponent(props, forwardedRef) {
+    let children;
+    const { href: hrefProp, as: asProp, children: childrenProp, prefetch: prefetchProp = null, passHref, replace, shallow, scroll, locale, onClick, onMouseEnter: onMouseEnterProp, onTouchStart: onTouchStartProp, legacyBehavior = true === false, ...restProps } = props;
+    children = childrenProp;
+    if (legacyBehavior && (typeof children === "string" || typeof children === "number")) {
+        children = /*#__PURE__*/ _react.default.createElement("a", null, children);
+    }
+    const pagesRouter = _react.default.useContext(_routercontext.RouterContext);
+    const appRouter = _react.default.useContext(_approutercontext.AppRouterContext);
+    const router = pagesRouter != null ? pagesRouter : appRouter;
+    // We're in the app directory if there is no pages router.
+    const isAppRouter = !pagesRouter;
+    const prefetchEnabled = prefetchProp !== false;
+    /**
+     * The possible states for prefetch are:
+     * - null: this is the default "auto" mode, where we will prefetch partially if the link is in the viewport
+     * - true: we will prefetch if the link is visible and prefetch the full page, not just partially
+     * - false: we will not prefetch if in the viewport at all
+     */ const appPrefetchKind = prefetchProp === null ? _routerreducertypes.PrefetchKind.AUTO : _routerreducertypes.PrefetchKind.FULL;
+    if (false) {}
+    if (false) {}
+    const { href, as } = _react.default.useMemo(()=>{
+        if (!pagesRouter) {
+            const resolvedHref = formatStringOrUrl(hrefProp);
+            return {
+                href: resolvedHref,
+                as: asProp ? formatStringOrUrl(asProp) : resolvedHref
+            };
+        }
+        const [resolvedHref, resolvedAs] = (0, _resolvehref.resolveHref)(pagesRouter, hrefProp, true);
+        return {
+            href: resolvedHref,
+            as: asProp ? (0, _resolvehref.resolveHref)(pagesRouter, asProp) : resolvedAs || resolvedHref
+        };
+    }, [
+        pagesRouter,
+        hrefProp,
+        asProp
+    ]);
+    const previousHref = _react.default.useRef(href);
+    const previousAs = _react.default.useRef(as);
+    // This will return the first child, if multiple are provided it will throw an error
+    let child;
+    if (legacyBehavior) {
+        if (false) {} else {
+            child = _react.default.Children.only(children);
+        }
+    } else {
+        if (false) {}
+    }
+    const childRef = legacyBehavior ? child && typeof child === "object" && child.ref : forwardedRef;
+    const [setIntersectionRef, isVisible, resetVisible] = (0, _useintersection.useIntersection)({
+        rootMargin: "200px"
+    });
+    const setRef = _react.default.useCallback((el)=>{
+        // Before the link getting observed, check if visible state need to be reset
+        if (previousAs.current !== as || previousHref.current !== href) {
+            resetVisible();
+            previousAs.current = as;
+            previousHref.current = href;
+        }
+        setIntersectionRef(el);
+        if (childRef) {
+            if (typeof childRef === "function") childRef(el);
+            else if (typeof childRef === "object") {
+                childRef.current = el;
+            }
+        }
+    }, [
+        as,
+        childRef,
+        href,
+        resetVisible,
+        setIntersectionRef
+    ]);
+    // Prefetch the URL if we haven't already and it's visible.
+    _react.default.useEffect(()=>{
+        // in dev, we only prefetch on hover to avoid wasting resources as the prefetch will trigger compiling the page.
+        if (false) {}
+        if (!router) {
+            return;
+        }
+        // If we don't need to prefetch the URL, don't do prefetch.
+        if (!isVisible || !prefetchEnabled) {
+            return;
+        }
+        // Prefetch the URL.
+        prefetch(router, href, as, {
+            locale
+        }, {
+            kind: appPrefetchKind
+        }, isAppRouter);
+    }, [
+        as,
+        href,
+        isVisible,
+        locale,
+        prefetchEnabled,
+        pagesRouter == null ? void 0 : pagesRouter.locale,
+        router,
+        isAppRouter,
+        appPrefetchKind
+    ]);
+    const childProps = {
+        ref: setRef,
+        onClick (e) {
+            if (false) {}
+            if (!legacyBehavior && typeof onClick === "function") {
+                onClick(e);
+            }
+            if (legacyBehavior && child.props && typeof child.props.onClick === "function") {
+                child.props.onClick(e);
+            }
+            if (!router) {
+                return;
+            }
+            if (e.defaultPrevented) {
+                return;
+            }
+            linkClicked(e, router, href, as, replace, shallow, scroll, locale, isAppRouter, prefetchEnabled);
+        },
+        onMouseEnter (e) {
+            if (!legacyBehavior && typeof onMouseEnterProp === "function") {
+                onMouseEnterProp(e);
+            }
+            if (legacyBehavior && child.props && typeof child.props.onMouseEnter === "function") {
+                child.props.onMouseEnter(e);
+            }
+            if (!router) {
+                return;
+            }
+            if ((!prefetchEnabled || "production" === "development") && isAppRouter) {
+                return;
+            }
+            prefetch(router, href, as, {
+                locale,
+                priority: true,
+                // @see {https://github.com/vercel/next.js/discussions/40268?sort=top#discussioncomment-3572642}
+                bypassPrefetchedCheck: true
+            }, {
+                kind: appPrefetchKind
+            }, isAppRouter);
+        },
+        onTouchStart (e) {
+            if (!legacyBehavior && typeof onTouchStartProp === "function") {
+                onTouchStartProp(e);
+            }
+            if (legacyBehavior && child.props && typeof child.props.onTouchStart === "function") {
+                child.props.onTouchStart(e);
+            }
+            if (!router) {
+                return;
+            }
+            if (!prefetchEnabled && isAppRouter) {
+                return;
+            }
+            prefetch(router, href, as, {
+                locale,
+                priority: true,
+                // @see {https://github.com/vercel/next.js/discussions/40268?sort=top#discussioncomment-3572642}
+                bypassPrefetchedCheck: true
+            }, {
+                kind: appPrefetchKind
+            }, isAppRouter);
+        }
+    };
+    // If child is an <a> tag and doesn't have a href attribute, or if the 'passHref' property is
+    // defined, we specify the current 'href', so that repetition is not needed by the user.
+    // If the url is absolute, we can bypass the logic to prepend the domain and locale.
+    if ((0, _utils.isAbsoluteUrl)(as)) {
+        childProps.href = as;
+    } else if (!legacyBehavior || passHref || child.type === "a" && !("href" in child.props)) {
+        const curLocale = typeof locale !== "undefined" ? locale : pagesRouter == null ? void 0 : pagesRouter.locale;
+        // we only render domain locales if we are currently on a domain locale
+        // so that locale links are still visitable in development/preview envs
+        const localeDomain = (pagesRouter == null ? void 0 : pagesRouter.isLocaleDomain) && (0, _getdomainlocale.getDomainLocale)(as, curLocale, pagesRouter == null ? void 0 : pagesRouter.locales, pagesRouter == null ? void 0 : pagesRouter.domainLocales);
+        childProps.href = localeDomain || (0, _addbasepath.addBasePath)((0, _addlocale.addLocale)(as, curLocale, pagesRouter == null ? void 0 : pagesRouter.defaultLocale));
+    }
+    return legacyBehavior ? /*#__PURE__*/ _react.default.cloneElement(child, childProps) : /*#__PURE__*/ _react.default.createElement("a", {
+        ...restProps,
+        ...childProps
+    }, children);
+});
+const _default = Link;
+if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
+    Object.defineProperty(exports.default, "__esModule", {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+} //# sourceMappingURL=link.js.map
 
 
 /***/ }),
@@ -4685,7 +4748,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 8909:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -4703,7 +4765,15 @@ const normalizePathTrailingSlash = (path)=>{
         return path;
     }
     const { pathname, query, hash } = (0, _parsepath.parsePath)(path);
-    if (false) {}
+    if (true) {
+        if (/\.[^/]+\/?$/.test(pathname)) {
+            return "" + (0, _removetrailingslash.removeTrailingSlash)(pathname) + query + hash;
+        } else if (pathname.endsWith("/")) {
+            return "" + pathname + query + hash;
+        } else {
+            return pathname + "/" + query + hash;
+        }
+    }
     return "" + (0, _removetrailingslash.removeTrailingSlash)(pathname) + query + hash;
 };
 if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
@@ -4717,29 +4787,170 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 
 /***/ }),
 
-/***/ 1260:
-/***/ ((__unused_webpack_module, exports) => {
+/***/ 7026:
+/***/ ((module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
 }));
-Object.defineProperty(exports, "default", ({
+0 && (0);
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    requestIdleCallback: function() {
+        return requestIdleCallback;
+    },
+    cancelIdleCallback: function() {
+        return cancelIdleCallback;
+    }
+});
+const requestIdleCallback = typeof self !== "undefined" && self.requestIdleCallback && self.requestIdleCallback.bind(window) || function(cb) {
+    let start = Date.now();
+    return self.setTimeout(function() {
+        cb({
+            didTimeout: false,
+            timeRemaining: function() {
+                return Math.max(0, 50 - (Date.now() - start));
+            }
+        });
+    }, 1);
+};
+const cancelIdleCallback = typeof self !== "undefined" && self.cancelIdleCallback && self.cancelIdleCallback.bind(window) || function(id) {
+    return clearTimeout(id);
+};
+if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
+    Object.defineProperty(exports.default, "__esModule", {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+} //# sourceMappingURL=request-idle-callback.js.map
+
+
+/***/ }),
+
+/***/ 524:
+/***/ ((module, exports, __webpack_require__) => {
+
+
+Object.defineProperty(exports, "__esModule", ({
+    value: true
+}));
+Object.defineProperty(exports, "useIntersection", ({
     enumerable: true,
     get: function() {
-        return _default;
+        return useIntersection;
     }
 }));
-function defaultLoader(param) {
-    let { config, src, width, quality } = param;
-    if (false) {}
-    return config.path + "?url=" + encodeURIComponent(src) + "&w=" + width + "&q=" + (quality || 75) + ( false ? 0 : "");
+const _react = __webpack_require__(8038);
+const _requestidlecallback = __webpack_require__(7026);
+const hasIntersectionObserver = typeof IntersectionObserver === "function";
+const observers = new Map();
+const idList = [];
+function createObserver(options) {
+    const id = {
+        root: options.root || null,
+        margin: options.rootMargin || ""
+    };
+    const existing = idList.find((obj)=>obj.root === id.root && obj.margin === id.margin);
+    let instance;
+    if (existing) {
+        instance = observers.get(existing);
+        if (instance) {
+            return instance;
+        }
+    }
+    const elements = new Map();
+    const observer = new IntersectionObserver((entries)=>{
+        entries.forEach((entry)=>{
+            const callback = elements.get(entry.target);
+            const isVisible = entry.isIntersecting || entry.intersectionRatio > 0;
+            if (callback && isVisible) {
+                callback(isVisible);
+            }
+        });
+    }, options);
+    instance = {
+        id,
+        observer,
+        elements
+    };
+    idList.push(id);
+    observers.set(id, instance);
+    return instance;
 }
-// We use this to determine if the import is the default loader
-// or a custom loader defined by the user in next.config.js
-defaultLoader.__next_img_default = true;
-const _default = defaultLoader; //# sourceMappingURL=image-loader.js.map
+function observe(element, callback, options) {
+    const { id, observer, elements } = createObserver(options);
+    elements.set(element, callback);
+    observer.observe(element);
+    return function unobserve() {
+        elements.delete(element);
+        observer.unobserve(element);
+        // Destroy observer when there's nothing left to watch:
+        if (elements.size === 0) {
+            observer.disconnect();
+            observers.delete(id);
+            const index = idList.findIndex((obj)=>obj.root === id.root && obj.margin === id.margin);
+            if (index > -1) {
+                idList.splice(index, 1);
+            }
+        }
+    };
+}
+function useIntersection(param) {
+    let { rootRef, rootMargin, disabled } = param;
+    const isDisabled = disabled || !hasIntersectionObserver;
+    const [visible, setVisible] = (0, _react.useState)(false);
+    const elementRef = (0, _react.useRef)(null);
+    const setElement = (0, _react.useCallback)((element)=>{
+        elementRef.current = element;
+    }, []);
+    (0, _react.useEffect)(()=>{
+        if (hasIntersectionObserver) {
+            if (isDisabled || visible) return;
+            const element = elementRef.current;
+            if (element && element.tagName) {
+                const unobserve = observe(element, (isVisible)=>isVisible && setVisible(isVisible), {
+                    root: rootRef == null ? void 0 : rootRef.current,
+                    rootMargin
+                });
+                return unobserve;
+            }
+        } else {
+            if (!visible) {
+                const idleCallback = (0, _requestidlecallback.requestIdleCallback)(()=>setVisible(true));
+                return ()=>(0, _requestidlecallback.cancelIdleCallback)(idleCallback);
+            }
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [
+        isDisabled,
+        rootMargin,
+        rootRef,
+        visible,
+        elementRef.current
+    ]);
+    const resetVisible = (0, _react.useCallback)(()=>{
+        setVisible(false);
+    }, []);
+    return [
+        setElement,
+        visible,
+        resetVisible
+    ];
+}
+if ((typeof exports.default === "function" || typeof exports.default === "object" && exports.default !== null) && typeof exports.default.__esModule === "undefined") {
+    Object.defineProperty(exports.default, "__esModule", {
+        value: true
+    });
+    Object.assign(exports.default, exports);
+    module.exports = exports.default;
+} //# sourceMappingURL=use-intersection.js.map
 
 
 /***/ }),
@@ -4747,7 +4958,6 @@ const _default = defaultLoader; //# sourceMappingURL=image-loader.js.map
 /***/ 7531:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -4789,7 +4999,6 @@ function NoSSR(param) {
 /***/ 4663:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 // This has to be a shared module which is shared between client component error boundary and dynamic component
 
 Object.defineProperty(exports, "__esModule", ({
@@ -4809,7 +5018,6 @@ const NEXT_DYNAMIC_NO_SSR_CODE = "NEXT_DYNAMIC_NO_SSR_CODE"; //# sourceMappingUR
 /***/ 1913:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -5006,7 +5214,6 @@ function createProxy(moduleId) {
 /***/ 608:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
 module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/client/components/app-router.js");
@@ -5018,7 +5225,6 @@ module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/c
 /***/ 1865:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
 module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/client/components/error-boundary.js");
@@ -5030,7 +5236,6 @@ module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/c
 /***/ 4800:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
 module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/client/components/layout-router.js");
@@ -5042,7 +5247,6 @@ module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/c
 /***/ 4601:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
 module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/client/components/render-from-template-context.js");
@@ -5054,7 +5258,6 @@ module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/c
 /***/ 756:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -5090,7 +5293,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 1256:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
 module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js");
@@ -5099,14 +5301,13 @@ module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/c
 
 /***/ }),
 
-/***/ 4209:
+/***/ 7538:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 /* __next_internal_client_entry_do_not_use__  cjs */ 
 const { createProxy } = __webpack_require__(1913);
-module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/client/image-component.js");
- //# sourceMappingURL=image-component.js.map
+module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/client/link.js");
+ //# sourceMappingURL=link.js.map
 
 
 /***/ }),
@@ -5114,7 +5315,6 @@ module.exports = createProxy("/home/oem/git/myPortfolio/node_modules/next/dist/c
 /***/ 3301:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -5540,7 +5740,6 @@ exports.pathToRegexp = pathToRegexp; //# sourceMappingURL=index.js.map
 /***/ 7785:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * @license React
  * react-dom-server-rendering-stub.production.min.js
@@ -5599,7 +5798,6 @@ exports.version = "18.3.0-canary-7118f5dd7-20230705";
 /***/ 84:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 if (true) {
     module.exports = __webpack_require__(7785);
@@ -5611,7 +5809,6 @@ if (true) {
 /***/ 2502:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 /**
  * @license React
  * react-server-dom-webpack-server.edge.production.min.js
@@ -6692,7 +6889,6 @@ exports.renderToReadableStream = function(a, b, d) {
 /***/ 3212:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 if (true) {
     module.exports = __webpack_require__(2502);
@@ -6704,7 +6900,6 @@ if (true) {
 /***/ 6260:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * @license React
  * react.shared-subset.production.min.js
@@ -7113,7 +7308,6 @@ exports.version = "18.3.0-canary-7118f5dd7-20230705";
 /***/ 0:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 if (true) {
     module.exports = __webpack_require__(6260);
@@ -7125,7 +7319,6 @@ if (true) {
 /***/ 3785:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -7214,7 +7407,6 @@ function normalizeMetadataRoute(page) {
 /***/ 9409:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -7323,7 +7515,6 @@ function isMetadataRoute(route) {
 /***/ 3664:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -7449,7 +7640,6 @@ function acceptLanguage(header = "", preferences) {
 /***/ 6327:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -7530,7 +7720,6 @@ const { preloadStyle, preloadFont, preconnect } = __webpack_require__(9675); //#
 /***/ 9675:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 /*
 
 Files in the rsc directory are meant to be packaged as part of the RSC graph using next-app-loader.
@@ -7591,7 +7780,6 @@ function preconnect(href, crossOrigin) {
 /***/ 5606:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -7682,7 +7870,6 @@ function extractInterceptionRouteInformation(path) {
 /***/ 9013:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /* eslint-disable no-redeclare */ 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -7759,7 +7946,6 @@ function getNextInternalQuery(query) {
 /***/ 9141:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -8163,7 +8349,6 @@ function getUtils({ page, i18n, basePath, rewrites, pageIsDynamic, trailingSlash
 /***/ 6980:
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -8517,7 +8702,6 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 /***/ 4833:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 // regexp is based on https://github.com/sindresorhus/escape-string-regexp
 
 Object.defineProperty(exports, "__esModule", ({
@@ -8542,321 +8726,9 @@ function escapeStringRegexp(str) {
 
 /***/ }),
 
-/***/ 7139:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-Object.defineProperty(exports, "getImgProps", ({
-    enumerable: true,
-    get: function() {
-        return getImgProps;
-    }
-}));
-const _warnonce = __webpack_require__(1233);
-const _imageblursvg = __webpack_require__(8136);
-const _imageconfig = __webpack_require__(2405);
-const VALID_LOADING_VALUES = (/* unused pure expression or super */ null && ([
-    "lazy",
-    "eager",
-    undefined
-]));
-function isStaticRequire(src) {
-    return src.default !== undefined;
-}
-function isStaticImageData(src) {
-    return src.src !== undefined;
-}
-function isStaticImport(src) {
-    return typeof src === "object" && (isStaticRequire(src) || isStaticImageData(src));
-}
-const allImgs = new Map();
-let perfObserver;
-function getInt(x) {
-    if (typeof x === "undefined") {
-        return x;
-    }
-    if (typeof x === "number") {
-        return Number.isFinite(x) ? x : NaN;
-    }
-    if (typeof x === "string" && /^[0-9]+$/.test(x)) {
-        return parseInt(x, 10);
-    }
-    return NaN;
-}
-function getWidths(param, width, sizes) {
-    let { deviceSizes, allSizes } = param;
-    if (sizes) {
-        // Find all the "vw" percent sizes used in the sizes prop
-        const viewportWidthRe = /(^|\s)(1?\d?\d)vw/g;
-        const percentSizes = [];
-        for(let match; match = viewportWidthRe.exec(sizes); match){
-            percentSizes.push(parseInt(match[2]));
-        }
-        if (percentSizes.length) {
-            const smallestRatio = Math.min(...percentSizes) * 0.01;
-            return {
-                widths: allSizes.filter((s)=>s >= deviceSizes[0] * smallestRatio),
-                kind: "w"
-            };
-        }
-        return {
-            widths: allSizes,
-            kind: "w"
-        };
-    }
-    if (typeof width !== "number") {
-        return {
-            widths: deviceSizes,
-            kind: "w"
-        };
-    }
-    const widths = [
-        ...new Set(// > are actually 3x in the green color, but only 1.5x in the red and
-        // > blue colors. Showing a 3x resolution image in the app vs a 2x
-        // > resolution image will be visually the same, though the 3x image
-        // > takes significantly more data. Even true 3x resolution screens are
-        // > wasteful as the human eye cannot see that level of detail without
-        // > something like a magnifying glass.
-        // https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/capping-image-fidelity-on-ultra-high-resolution-devices.html
-        [
-            width,
-            width * 2 /*, width * 3*/ 
-        ].map((w)=>allSizes.find((p)=>p >= w) || allSizes[allSizes.length - 1]))
-    ];
-    return {
-        widths,
-        kind: "x"
-    };
-}
-function generateImgAttrs(param) {
-    let { config, src, unoptimized, width, quality, sizes, loader } = param;
-    if (unoptimized) {
-        return {
-            src,
-            srcSet: undefined,
-            sizes: undefined
-        };
-    }
-    const { widths, kind } = getWidths(config, width, sizes);
-    const last = widths.length - 1;
-    return {
-        sizes: !sizes && kind === "w" ? "100vw" : sizes,
-        srcSet: widths.map((w, i)=>loader({
-                config,
-                src,
-                quality,
-                width: w
-            }) + " " + (kind === "w" ? w : i + 1) + kind).join(", "),
-        // It's intended to keep `src` the last attribute because React updates
-        // attributes in order. If we keep `src` the first one, Safari will
-        // immediately start to fetch `src`, before `sizes` and `srcSet` are even
-        // updated by React. That causes multiple unnecessary requests if `srcSet`
-        // and `sizes` are defined.
-        // This bug cannot be reproduced in Chrome or Firefox.
-        src: loader({
-            config,
-            src,
-            quality,
-            width: widths[last]
-        })
-    };
-}
-function getImgProps(param, _state) {
-    let { src, sizes, unoptimized = false, priority = false, loading, className, quality, width, height, fill = false, style, onLoad, onLoadingComplete, placeholder = "empty", blurDataURL, fetchPriority, layout, objectFit, objectPosition, lazyBoundary, lazyRoot, ...rest } = param;
-    const { imgConf, showAltText, blurComplete, defaultLoader } = _state;
-    let config;
-    let c = imgConf || _imageconfig.imageConfigDefault;
-    if ("allSizes" in c) {
-        config = c;
-    } else {
-        const allSizes = [
-            ...c.deviceSizes,
-            ...c.imageSizes
-        ].sort((a, b)=>a - b);
-        const deviceSizes = c.deviceSizes.sort((a, b)=>a - b);
-        config = {
-            ...c,
-            allSizes,
-            deviceSizes
-        };
-    }
-    let loader = rest.loader || defaultLoader;
-    // Remove property so it's not spread on <img> element
-    delete rest.loader;
-    delete rest.srcSet;
-    // This special value indicates that the user
-    // didn't define a "loader" prop or "loader" config.
-    const isDefaultLoader = "__next_img_default" in loader;
-    if (isDefaultLoader) {
-        if (config.loader === "custom") {
-            throw new Error('Image with src "' + src + '" is missing "loader" prop.' + "\nRead more: https://nextjs.org/docs/messages/next-image-missing-loader");
-        }
-    } else {
-        // The user defined a "loader" prop or config.
-        // Since the config object is internal only, we
-        // must not pass it to the user-defined "loader".
-        const customImageLoader = loader;
-        loader = (obj)=>{
-            const { config: _, ...opts } = obj;
-            return customImageLoader(opts);
-        };
-    }
-    if (layout) {
-        if (layout === "fill") {
-            fill = true;
-        }
-        const layoutToStyle = {
-            intrinsic: {
-                maxWidth: "100%",
-                height: "auto"
-            },
-            responsive: {
-                width: "100%",
-                height: "auto"
-            }
-        };
-        const layoutToSizes = {
-            responsive: "100vw",
-            fill: "100vw"
-        };
-        const layoutStyle = layoutToStyle[layout];
-        if (layoutStyle) {
-            style = {
-                ...style,
-                ...layoutStyle
-            };
-        }
-        const layoutSizes = layoutToSizes[layout];
-        if (layoutSizes && !sizes) {
-            sizes = layoutSizes;
-        }
-    }
-    let staticSrc = "";
-    let widthInt = getInt(width);
-    let heightInt = getInt(height);
-    let blurWidth;
-    let blurHeight;
-    if (isStaticImport(src)) {
-        const staticImageData = isStaticRequire(src) ? src.default : src;
-        if (!staticImageData.src) {
-            throw new Error("An object should only be passed to the image component src parameter if it comes from a static image import. It must include src. Received " + JSON.stringify(staticImageData));
-        }
-        if (!staticImageData.height || !staticImageData.width) {
-            throw new Error("An object should only be passed to the image component src parameter if it comes from a static image import. It must include height and width. Received " + JSON.stringify(staticImageData));
-        }
-        blurWidth = staticImageData.blurWidth;
-        blurHeight = staticImageData.blurHeight;
-        blurDataURL = blurDataURL || staticImageData.blurDataURL;
-        staticSrc = staticImageData.src;
-        if (!fill) {
-            if (!widthInt && !heightInt) {
-                widthInt = staticImageData.width;
-                heightInt = staticImageData.height;
-            } else if (widthInt && !heightInt) {
-                const ratio = widthInt / staticImageData.width;
-                heightInt = Math.round(staticImageData.height * ratio);
-            } else if (!widthInt && heightInt) {
-                const ratio = heightInt / staticImageData.height;
-                widthInt = Math.round(staticImageData.width * ratio);
-            }
-        }
-    }
-    src = typeof src === "string" ? src : staticSrc;
-    let isLazy = !priority && (loading === "lazy" || typeof loading === "undefined");
-    if (!src || src.startsWith("data:") || src.startsWith("blob:")) {
-        // https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs
-        unoptimized = true;
-        isLazy = false;
-    }
-    if (config.unoptimized) {
-        unoptimized = true;
-    }
-    if (isDefaultLoader && src.endsWith(".svg") && !config.dangerouslyAllowSVG) {
-        // Special case to make svg serve as-is to avoid proxying
-        // through the built-in Image Optimization API.
-        unoptimized = true;
-    }
-    if (priority) {
-        fetchPriority = "high";
-    }
-    const qualityInt = getInt(quality);
-    if (false) {}
-    const imgStyle = Object.assign(fill ? {
-        position: "absolute",
-        height: "100%",
-        width: "100%",
-        left: 0,
-        top: 0,
-        right: 0,
-        bottom: 0,
-        objectFit,
-        objectPosition
-    } : {}, showAltText ? {} : {
-        color: "transparent"
-    }, style);
-    const blurStyle = placeholder === "blur" && blurDataURL && !blurComplete ? {
-        backgroundSize: imgStyle.objectFit || "cover",
-        backgroundPosition: imgStyle.objectPosition || "50% 50%",
-        backgroundRepeat: "no-repeat",
-        backgroundImage: 'url("data:image/svg+xml;charset=utf-8,' + (0, _imageblursvg.getImageBlurSvg)({
-            widthInt,
-            heightInt,
-            blurWidth,
-            blurHeight,
-            blurDataURL,
-            objectFit: imgStyle.objectFit
-        }) + '")'
-    } : {};
-    if (false) {}
-    const imgAttributes = generateImgAttrs({
-        config,
-        src,
-        unoptimized,
-        width: widthInt,
-        quality: qualityInt,
-        sizes,
-        loader
-    });
-    if (false) {}
-    const props = {
-        ...rest,
-        loading: isLazy ? "lazy" : loading,
-        fetchPriority,
-        width: widthInt,
-        height: heightInt,
-        decoding: "async",
-        className,
-        style: {
-            ...imgStyle,
-            ...blurStyle
-        },
-        sizes: imgAttributes.sizes,
-        srcSet: imgAttributes.srcSet,
-        src: imgAttributes.src
-    };
-    const meta = {
-        unoptimized,
-        priority,
-        placeholder,
-        fill
-    };
-    return {
-        props,
-        meta
-    };
-} //# sourceMappingURL=get-img-props.js.map
-
-
-/***/ }),
-
 /***/ 8651:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 // http://www.cse.yorku.ca/~oz/hash.html
 
 Object.defineProperty(exports, "__esModule", ({
@@ -8895,7 +8767,6 @@ function hexHash(str) {
 /***/ 4206:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -8914,188 +8785,9 @@ function detectLocaleCookie(req, locales) {
 
 /***/ }),
 
-/***/ 8136:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-/**
- * A shared function, used on both client and server, to generate a SVG blur placeholder.
- */ 
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-Object.defineProperty(exports, "getImageBlurSvg", ({
-    enumerable: true,
-    get: function() {
-        return getImageBlurSvg;
-    }
-}));
-function getImageBlurSvg(param) {
-    let { widthInt, heightInt, blurWidth, blurHeight, blurDataURL, objectFit } = param;
-    const std = blurWidth && blurHeight ? "1" : "20";
-    const svgWidth = blurWidth || widthInt;
-    const svgHeight = blurHeight || heightInt;
-    const feComponentTransfer = blurDataURL.startsWith("data:image/jpeg") ? "%3CfeComponentTransfer%3E%3CfeFuncA type='discrete' tableValues='1 1'/%3E%3C/feComponentTransfer%3E%" : "";
-    if (svgWidth && svgHeight) {
-        return "%3Csvg xmlns='http%3A//www.w3.org/2000/svg' viewBox='0 0 " + svgWidth + " " + svgHeight + "'%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='" + std + "'/%3E" + feComponentTransfer + "%3C/filter%3E%3Cimage preserveAspectRatio='none' filter='url(%23b)' x='0' y='0' height='100%25' width='100%25' href='" + blurDataURL + "'/%3E%3C/svg%3E";
-    }
-    const preserveAspectRatio = objectFit === "contain" ? "xMidYMid" : objectFit === "cover" ? "xMidYMid slice" : "none";
-    return "%3Csvg xmlns='http%3A//www.w3.org/2000/svg'%3E%3Cimage style='filter:blur(20px)' preserveAspectRatio='" + preserveAspectRatio + "' x='0' y='0' height='100%25' width='100%25' href='" + blurDataURL + "'/%3E%3C/svg%3E";
-} //# sourceMappingURL=image-blur-svg.js.map
-
-
-/***/ }),
-
-/***/ 2405:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-0 && (0);
-function _export(target, all) {
-    for(var name in all)Object.defineProperty(target, name, {
-        enumerable: true,
-        get: all[name]
-    });
-}
-_export(exports, {
-    VALID_LOADERS: function() {
-        return VALID_LOADERS;
-    },
-    imageConfigDefault: function() {
-        return imageConfigDefault;
-    }
-});
-const VALID_LOADERS = [
-    "default",
-    "imgix",
-    "cloudinary",
-    "akamai",
-    "custom"
-];
-const imageConfigDefault = {
-    deviceSizes: [
-        640,
-        750,
-        828,
-        1080,
-        1200,
-        1920,
-        2048,
-        3840
-    ],
-    imageSizes: [
-        16,
-        32,
-        48,
-        64,
-        96,
-        128,
-        256,
-        384
-    ],
-    path: "/_next/image",
-    loader: "default",
-    loaderFile: "",
-    domains: [],
-    disableStaticImages: false,
-    minimumCacheTTL: 60,
-    formats: [
-        "image/webp"
-    ],
-    dangerouslyAllowSVG: false,
-    contentSecurityPolicy: "script-src 'none'; frame-src 'none'; sandbox;",
-    contentDispositionType: "inline",
-    remotePatterns: [],
-    unoptimized: false
-}; //# sourceMappingURL=image-config.js.map
-
-
-/***/ }),
-
-/***/ 3791:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-0 && (0);
-function _export(target, all) {
-    for(var name in all)Object.defineProperty(target, name, {
-        enumerable: true,
-        get: all[name]
-    });
-}
-_export(exports, {
-    default: function() {
-        return _default;
-    },
-    unstable_getImgProps: function() {
-        return unstable_getImgProps;
-    }
-});
-const _interop_require_default = __webpack_require__(7063);
-const _getimgprops = __webpack_require__(7139);
-const _warnonce = __webpack_require__(1233);
-const _imagecomponent = __webpack_require__(4209);
-const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(2372));
-const unstable_getImgProps = (imgProps)=>{
-    (0, _warnonce.warnOnce)("Warning: unstable_getImgProps() is experimental and may change or be removed at any time. Use at your own risk.");
-    const { props } = (0, _getimgprops.getImgProps)(imgProps, {
-        defaultLoader: _imageloader.default,
-        // This is replaced by webpack define plugin
-        imgConf: {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false}
-    });
-    for (const [key, value] of Object.entries(props)){
-        if (value === undefined) {
-            delete props[key];
-        }
-    }
-    return {
-        props
-    };
-};
-const _default = _imagecomponent.Image; //# sourceMappingURL=image-external.js.map
-
-
-/***/ }),
-
-/***/ 2372:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-Object.defineProperty(exports, "default", ({
-    enumerable: true,
-    get: function() {
-        return _default;
-    }
-}));
-function defaultLoader(param) {
-    let { config, src, width, quality } = param;
-    if (false) {}
-    return config.path + "?url=" + encodeURIComponent(src) + "&w=" + width + "&q=" + (quality || 75) + ( false ? 0 : "");
-}
-// We use this to determine if the import is the default loader
-// or a custom loader defined by the user in next.config.js
-defaultLoader.__next_img_default = true;
-const _default = defaultLoader; //# sourceMappingURL=image-loader.js.map
-
-
-/***/ }),
-
 /***/ 2918:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 /**
  * This module is for next.js server internal usage of path module.
  * It will use native path module for nodejs runtime.
@@ -9113,7 +8805,6 @@ module.exports = path; //# sourceMappingURL=path.js.map
 /***/ 3110:
 /***/ ((module) => {
 
-"use strict";
 // Note: This file is JS because it's used by the taskfile-swc.js file, which is JS.
 // Keep file changes in sync with the corresponding `.d.ts` files.
 /**
@@ -9137,7 +8828,6 @@ module.exports = MODERN_BROWSERSLIST_TARGET; //# sourceMappingURL=modern-browser
 /***/ 9602:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9161,7 +8851,6 @@ function denormalizePagePath(page) {
 /***/ 2081:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * For a given page path, this function ensures that there is a leading slash.
  * If there is not a leading slash, one is added, otherwise it is noop.
@@ -9185,7 +8874,6 @@ function ensureLeadingSlash(path) {
 /***/ 4995:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * For a given page path, this function ensures that there is no backslash
  * escaping slashes in the path. Example:
@@ -9210,7 +8898,6 @@ function normalizePathSep(path) {
 /***/ 5353:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9262,7 +8949,6 @@ function normalizeRscPath(pathname, enabled) {
 /***/ 6874:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9291,7 +8977,6 @@ const _isdynamic = __webpack_require__(1621); //# sourceMappingURL=index.js.map
 /***/ 1621:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 // Identify /[param]/ in route string
 
 Object.defineProperty(exports, "__esModule", ({
@@ -9314,7 +8999,6 @@ function isDynamicRoute(route) {
 /***/ 1482:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9349,7 +9033,6 @@ function parseRelativeUrl(url, base) {
 /***/ 7889:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9385,7 +9068,6 @@ function parseUrl(url) {
 /***/ 81:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9439,7 +9121,6 @@ function getPathMatch(path, options) {
 /***/ 5565:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9670,7 +9351,6 @@ function prepareDestination(args) {
 /***/ 3056:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9745,7 +9425,6 @@ function assign(target) {
 /***/ 2238:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9791,7 +9470,6 @@ function getRouteMatcher(param) {
 /***/ 4344:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -9985,7 +9663,6 @@ function getNamedMiddlewareRegex(normalizedRoute, options) {
 /***/ 1838:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -10161,7 +9838,6 @@ function getSortedRoutes(normalizedPages) {
 /***/ 1022:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 Object.defineProperty(exports, "__esModule", ({
     value: true
@@ -10339,32 +10015,11 @@ function stringifyError(error) {
 
 /***/ }),
 
-/***/ 1233:
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({
-    value: true
-}));
-Object.defineProperty(exports, "warnOnce", ({
-    enumerable: true,
-    get: function() {
-        return warnOnce;
-    }
-}));
-let warnOnce = (_)=>{};
-if (false) {} //# sourceMappingURL=warn-once.js.map
-
-
-/***/ }),
-
-/***/ 7495:
+/***/ 1518:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
-module.exports = __webpack_require__(3791);
+module.exports = __webpack_require__(7538);
 
 
 /***/ }),
@@ -10372,7 +10027,6 @@ module.exports = __webpack_require__(3791);
 /***/ 5967:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 
 exports._ = exports._interop_require_default = _interop_require_default;
@@ -10386,7 +10040,6 @@ function _interop_require_default(obj) {
 /***/ 1113:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 
 function _getRequireWildcardCache(nodeInterop) {
@@ -10432,7 +10085,6 @@ function _interop_require_wildcard(obj, nodeInterop) {
 /***/ 7063:
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 exports._ = exports._interop_require_default = _interop_require_default;
 function _interop_require_default(obj) {
