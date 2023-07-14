@@ -180,7 +180,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 5548:
+/***/ 3448:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -286,22 +286,112 @@ var globals = __webpack_require__(5553);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(1518);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
+var react_shared_subset = __webpack_require__(0);
 ;// CONCATENATED MODULE: ./src/app/components/navBar.tsx
 
 
+
 function NavBar() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
-        className: "bg-slate-600",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                className: "text-3xl text-white",
-                children: "My Website"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                href: "/",
-                children: "Home"
+    return /*#__PURE__*/ jsx_runtime_.jsx(react_shared_subset.Fragment, {
+        children: /*#__PURE__*/ jsx_runtime_.jsx("nav", {
+            className: "bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600",
+            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
+                        href: "https://flowbite.com/",
+                        className: "flex items-center",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                src: "https://flowbite.com/docs/images/logo.svg",
+                                className: "h-8 mr-3",
+                                alt: "Flowbite Logo"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                className: "self-center text-2xl font-semibold whitespace-nowrap dark:text-white",
+                                children: "Flowbite"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "flex md:order-2",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                type: "button",
+                                className: "text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800",
+                                children: "Get started"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
+                                "data-collapse-toggle": "navbar-sticky",
+                                type: "button",
+                                className: "inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600",
+                                "aria-controls": "navbar-sticky",
+                                "aria-expanded": "false",
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                        className: "sr-only",
+                                        children: "Open main menu"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                                        className: "w-5 h-5",
+                                        "aria-hidden": "true",
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        fill: "none",
+                                        viewBox: "0 0 17 14",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                            stroke: "currentColor",
+                                            "stroke-linecap": "round",
+                                            "stroke-linejoin": "round",
+                                            "stroke-width": "2",
+                                            d: "M1 1h15M1 7h15M1 13h15"
+                                        })
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "items-center justify-between hidden w-full md:flex md:w-auto md:order-1",
+                        id: "navbar-sticky",
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+                            className: "flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "#",
+                                        className: "block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500",
+                                        "aria-current": "page",
+                                        children: "Home"
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "#",
+                                        className: "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
+                                        children: "About"
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "#",
+                                        className: "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
+                                        children: "Services"
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "#",
+                                        className: "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
+                                        children: "Contact"
+                                    })
+                                })
+                            ]
+                        })
+                    })
+                ]
             })
-        ]
+        })
     });
 }
 
@@ -388,7 +478,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,894], () => (__webpack_exec__(5548)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,894], () => (__webpack_exec__(3448)));
 module.exports = __webpack_exports__;
 
 })();
