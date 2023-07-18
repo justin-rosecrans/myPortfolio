@@ -2,7 +2,6 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import NavBar from './components/navBar'
-require('flowbite')
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +20,7 @@ export default function RootLayout({
       <body className="bg-slate-800">
         <NavBar />
         {children}
+        <script src="flowbite.min.js"></script>
         </body>
     </html>
   )
