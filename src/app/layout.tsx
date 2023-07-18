@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import NavBar from './components/navBar'
 import Footer from './components/footer'
+import { Fragment } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,12 +18,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <Fragment>
     <html lang="en">
       <body className="bg-slate-800">
         <NavBar />
         {children}
         <Footer />
+        <script src="flowbite.min.js"></script>
         </body>
     </html>
+    </Fragment>
   )
 }
