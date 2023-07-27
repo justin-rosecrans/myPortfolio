@@ -51,7 +51,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/home/oem/git/myPortfolio/node_modules/next/dist/client/components/error-boundary.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -59,7 +59,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -67,7 +67,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/client/components/app-router.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -75,7 +75,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/esm/client/components/app-router.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -83,7 +83,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/client/components/layout-router.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -91,7 +91,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -99,7 +99,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -107,7 +107,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -115,7 +115,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -123,7 +123,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -131,7 +131,15 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/client/link.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\flowbite.css": {
+      "id": "(app-client)/./src/app/flowbite.css",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -139,7 +147,7 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/dist/esm/client/link.js": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\esm\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -147,15 +155,15 @@
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src\\\\app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/home/oem/git/myPortfolio/src/app/globals.css": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\globals.css": {
       "id": "(app-client)/./src/app/globals.css",
       "name": "*",
       "chunks": [
@@ -165,8 +173,10 @@
     }
   },
   "entryCSSFiles": {
-    "/home/oem/git/myPortfolio/src/app/page": [],
-    "/home/oem/git/myPortfolio/src/app/layout": [
+    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\page": [
+      "static/css/app/page.css"
+    ],
+    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\layout": [
       "static/css/app/layout.css"
     ]
   }
