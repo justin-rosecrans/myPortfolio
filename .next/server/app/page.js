@@ -180,7 +180,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 5548:
+/***/ 7196:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -205,7 +205,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7751)), "/home/oem/git/myPortfolio/src/app/page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7541)), "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\page.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
     apple: [],
@@ -216,7 +216,7 @@ __webpack_require__.r(__webpack_exports__);
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7549)), "/home/oem/git/myPortfolio/src/app/layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7549)), "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
     apple: [],
@@ -227,7 +227,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["/home/oem/git/myPortfolio/src/app/page.tsx"];
+    const pages = ["C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\page.tsx"];
     
     const originalPathname = "/page"
     const __next_app__ = {
@@ -241,7 +241,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3812:
+/***/ 3117:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7734, 23));
@@ -252,14 +252,14 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 3445:
+/***/ 4149:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5457, 23))
 
 /***/ }),
 
-/***/ 3259:
+/***/ 6858:
 /***/ (() => {
 
 
@@ -549,9 +549,9 @@ function Footer() {
                                                 fill: "currentColor",
                                                 viewBox: "0 0 8 19",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    "fill-rule": "evenodd",
+                                                    fillRule: "evenodd",
                                                     d: "M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z",
-                                                    "clip-rule": "evenodd"
+                                                    clipRule: "evenodd"
                                                 })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -591,9 +591,9 @@ function Footer() {
                                                 fill: "currentColor",
                                                 viewBox: "0 0 20 17",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    "fill-rule": "evenodd",
+                                                    fillRule: "evenodd",
                                                     d: "M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z",
-                                                    "clip-rule": "evenodd"
+                                                    clipRule: "evenodd"
                                                 })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -613,9 +613,9 @@ function Footer() {
                                                 fill: "currentColor",
                                                 viewBox: "0 0 20 20",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    "fill-rule": "evenodd",
+                                                    fillRule: "evenodd",
                                                     d: "M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z",
-                                                    "clip-rule": "evenodd"
+                                                    clipRule: "evenodd"
                                                 })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -635,9 +635,9 @@ function Footer() {
                                                 fill: "currentColor",
                                                 viewBox: "0 0 20 20",
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    "fill-rule": "evenodd",
+                                                    fillRule: "evenodd",
                                                     d: "M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z",
-                                                    "clip-rule": "evenodd"
+                                                    clipRule: "evenodd"
                                                 })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
@@ -689,20 +689,278 @@ function RootLayout({ children }) {
 
 /***/ }),
 
-/***/ 7751:
+/***/ 7541:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Home)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Home)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./src/app/flowbite.css
+var flowbite = __webpack_require__(43);
+;// CONCATENATED MODULE: ./src/app/components/carousel.tsx
+
+
+function Carousel() {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        id: "default-carousel",
+        className: "relative w-full",
+        "data-carousel": "static",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "relative h-56 overflow-hidden rounded-lg md:h-96",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "hidden duration-700 ease-in-out",
+                        "data-carousel-item": true,
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figure", {
+                            className: "relative h-full",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/carousel/Schwab/Education_Centre_Details.svg",
+                                    className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                                    alt: "..."
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figcaption", {
+                                    className: "absolute bottom-0 left-0 z-20 flex items-center justify-center w-full h-16 px-4 text-sm font-medium text-center text-white bg-black/50",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "inline-block px-2 py-1 text-white bg-black/50 rounded",
+                                            children: "1"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "ml-2",
+                                            children: "Education Centre Details"
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "hidden duration-700 ease-in-out",
+                        "data-carousel-item": true,
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figure", {
+                            className: "relative h-full",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/carousel/Schwab/Education_Centre_Hover.svg",
+                                    className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                                    alt: "..."
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figcaption", {
+                                    className: "absolute bottom-0 left-0 z-20 flex items-center justify-center w-full h-16 px-4 text-sm font-medium text-center text-white bg-black/50",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "inline-block px-2 py-1 text-white bg-black/50 rounded",
+                                            children: "2"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "ml-2",
+                                            children: "Education Centre Hover"
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "hidden duration-700 ease-in-out",
+                        "data-carousel-item": true,
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figure", {
+                            className: "relative h-full",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/carousel/Schwab/Education_Centre.svg",
+                                    className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                                    alt: "..."
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figcaption", {
+                                    className: "absolute bottom-0 left-0 z-20 flex items-center justify-center w-full h-16 px-4 text-sm font-medium text-center text-white bg-black/50",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "inline-block px-2 py-1 text-white bg-black/50 rounded",
+                                            children: "3"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "ml-2",
+                                            children: "Education Centre"
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "hidden duration-700 ease-in-out",
+                        "data-carousel-item": true,
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figure", {
+                            className: "relative h-full",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/carousel/Schwab/global_translations.svg",
+                                    className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                                    alt: "..."
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figcaption", {
+                                    className: "absolute bottom-0 left-0 z-20 flex items-center justify-center w-full h-16 px-4 text-sm font-medium text-center text-white bg-black/50",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "inline-block px-2 py-1 text-white bg-black/50 rounded",
+                                            children: "4"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "ml-2",
+                                            children: "Education Centre Details"
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        className: "hidden duration-700 ease-in-out",
+                        "data-carousel-item": true,
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figure", {
+                            className: "relative h-full",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/carousel/Schwab/Education_Centre_Details.svg",
+                                    className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                                    alt: "..."
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("figcaption", {
+                                    className: "absolute bottom-0 left-0 z-20 flex items-center justify-center w-full h-16 px-4 text-sm font-medium text-center text-white bg-black/50",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "inline-block px-2 py-1 text-white bg-black/50 rounded",
+                                            children: "5"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "ml-2",
+                                            children: "Education Centre Details"
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2",
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                        type: "button",
+                        className: "w-3 h-3 rounded-full",
+                        "aria-current": "true",
+                        "aria-label": "Slide 1",
+                        "data-carousel-slide-to": "0"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                        type: "button",
+                        className: "w-3 h-3 rounded-full",
+                        "aria-current": "false",
+                        "aria-label": "Slide 2",
+                        "data-carousel-slide-to": "1"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                        type: "button",
+                        className: "w-3 h-3 rounded-full",
+                        "aria-current": "false",
+                        "aria-label": "Slide 3",
+                        "data-carousel-slide-to": "2"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                        type: "button",
+                        className: "w-3 h-3 rounded-full",
+                        "aria-current": "false",
+                        "aria-label": "Slide 4",
+                        "data-carousel-slide-to": "3"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                        type: "button",
+                        className: "w-3 h-3 rounded-full",
+                        "aria-current": "false",
+                        "aria-label": "Slide 5",
+                        "data-carousel-slide-to": "4"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                type: "button",
+                className: "absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none",
+                "data-carousel-prev": true,
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
+                    className: "inline-flex items-center justify-center w-10 h-10 rounded-full text-white bg-black/50 dark:bg-gray-800/30 group-hover:bg-black/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                            className: "w-4 h-4 text-white dark:text-gray-800",
+                            "aria-hidden": "true",
+                            xmlns: "http://www.w3.org/2000/svg",
+                            fill: "none",
+                            viewBox: "0 0 6 10",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                stroke: "currentColor",
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                strokeWidth: "2",
+                                d: "M5 1 1 5l4 4"
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                            className: "sr-only",
+                            children: "Previous"
+                        })
+                    ]
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                type: "button",
+                className: "absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none",
+                "data-carousel-next": true,
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
+                    className: "inline-flex items-center justify-center w-10 h-10 rounded-full text-white bg-black/50 dark:bg-gray-800/30 group-hover:bg-black/30 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                            className: "w-4 h-4 text-white dark:text-gray-800",
+                            "aria-hidden": "true",
+                            xmlns: "http://www.w3.org/2000/svg",
+                            fill: "none",
+                            viewBox: "0 0 6 10",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                stroke: "currentColor",
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                strokeWidth: "2",
+                                d: "m1 9 4-4-4-4"
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                            className: "sr-only",
+                            children: "Next"
+                        })
+                    ]
+                })
+            })
+        ]
+    });
+}
+
+;// CONCATENATED MODULE: ./src/app/page.tsx
+
 
 function Home() {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("main", {
-        className: "flex min-h-screen flex-col items-center justify-between p-24"
+    return /*#__PURE__*/ jsx_runtime_.jsx("main", {
+        className: "flex min-h-screen flex-col items-center justify-between p-24",
+        children: /*#__PURE__*/ jsx_runtime_.jsx(Carousel, {})
     });
 }
 
@@ -733,6 +991,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ 43:
+/***/ (() => {
+
+
+
+/***/ }),
+
 /***/ 5553:
 /***/ (() => {
 
@@ -747,7 +1012,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,894], () => (__webpack_exec__(5548)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,894], () => (__webpack_exec__(7196)));
 module.exports = __webpack_exports__;
 
 })();
