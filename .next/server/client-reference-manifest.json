@@ -131,14 +131,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\flowbite.css": {
-      "id": "(app-client)/./src/app/flowbite.css",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
@@ -170,14 +162,22 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\flowbite.css": {
+      "id": "(app-client)/./src/app/flowbite.css",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\layout": [
       "static/css/app/layout.css"
+    ],
+    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\page": [
+      "static/css/app/page.css"
     ]
   }
 }
