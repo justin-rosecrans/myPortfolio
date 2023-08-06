@@ -711,7 +711,7 @@ var flowbite = __webpack_require__(43);
 function Carousel() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         id: "default-carousel",
-        className: "relative w-full",
+        className: "relative w-full z-0",
         "data-carousel": "static",
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -954,12 +954,15 @@ function Carousel() {
     });
 }
 
+// EXTERNAL MODULE: ./src/app/globals.css
+var globals = __webpack_require__(5553);
 ;// CONCATENATED MODULE: ./src/app/page.tsx
+
 
 
 function Home() {
     return /*#__PURE__*/ jsx_runtime_.jsx("main", {
-        className: "flex min-h-screen flex-col items-center justify-between p-24",
+        className: "flex min-h-screen flex-col items-center justify-between pt-24 px-16 blue-background",
         children: /*#__PURE__*/ jsx_runtime_.jsx(Carousel, {})
     });
 }

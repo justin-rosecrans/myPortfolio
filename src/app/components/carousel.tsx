@@ -4,7 +4,7 @@ export default function Carousel() {
   return (
     <div
       id="default-carousel"
-      className="relative w-full"
+      className="relative w-full z-0"
       data-carousel="static"
     >
       {/* <!-- Carousel wrapper --> */}
