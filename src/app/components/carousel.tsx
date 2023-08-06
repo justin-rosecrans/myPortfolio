@@ -81,7 +81,7 @@ export default function Carousel() {
             className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md"
             alt="..."
           />
-                      <figcaption className="absolute bottom-0 left-0 z-20 flex items-center justify-center w-full h-16 px-4 text-sm font-medium text-center text-white bg-black/50">
+            <figcaption className="absolute bottom-0 left-0 z-20 flex items-center justify-center w-full h-16 px-4 text-sm font-medium text-center text-white bg-black/50">
             <span className="inline-block px-2 py-1 text-white bg-black/50 rounded">
                 5
             </span>
@@ -91,7 +91,7 @@ export default function Carousel() {
         </div>
       </div>
       {/* <!-- Slider indicators --> */}
-      <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+      <div className="absolute z-30 flex space-x-3 -translate-x-1/2 left-1/2">
         <button
           type="button"
           className="w-3 h-3 rounded-full"
