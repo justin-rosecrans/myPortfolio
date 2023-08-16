@@ -1,6 +1,27 @@
+"use client" 
 import "../flowbite.css";
+// import { useEffect } from 'react'
+import Image from "next/image";
+import centreDetailsImg from '../../../public/carousel/Schwab/Education_Centre_Details.svg';
 
 export default function Carousel() {
+
+  // useEffect(() => {
+  //   const images = [
+  //     '/carousel/Schwab/Education_Centre_Details.svg',
+  //     '/carousel/Schwab/Education_Centre_Hover.svg', 
+  //     '/carousel/Schwab/Education_Centre.svg',
+  //     '/carousel/Schwab/global_translations.svg',
+  //     '/carousel/Schwab/Education_Centre_Details.svg'
+  //   ]
+
+  //   images.forEach(image => {
+  //     const img = new Image()
+  //     img.src = image
+  //   })
+
+  // }, [])
+
   return (
     <div
       id="default-carousel"
@@ -12,10 +33,12 @@ export default function Carousel() {
         {/* <!-- Item 1 --> */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <figure className="relative h-full">
-          <img
-            src="/carousel/Schwab/Education_Centre_Details.svg"
+          <Image
+            src={centreDetailsImg}
             className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md"
-            alt="..."
+            alt="Picture of the author"
+            width={500}
+            height={500}
           />
             <figcaption className="absolute bottom-0 left-0 z-20 flex items-center justify-center w-full h-16 px-4 text-sm font-medium text-center text-white bg-black/50">
             <span className="inline-block px-2 py-1 text-white bg-black/50 rounded">

@@ -40,6 +40,22 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/components/carousel.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/carousel.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/script.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -131,11 +147,27 @@
       ],
       "async": false
     },
-    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\flowbite.css": {
-      "id": "(app-client)/./src/app/flowbite.css",
+    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\components\\carousel.tsx": {
+      "id": "(app-client)/./src/app/components/carousel.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\client\\script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\jrscr\\git\\myPortfolio\\node_modules\\next\\dist\\esm\\client\\script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -173,6 +205,7 @@
     }
   },
   "entryCSSFiles": {
+    "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\fanatics\\page": [],
     "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\page": [
       "static/css/app/page.css"
     ],
