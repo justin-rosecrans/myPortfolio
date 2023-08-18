@@ -44,7 +44,7 @@ export default function Carousel() {
             <span className="inline-block px-2 py-1 text-white bg-black/50 rounded">
                 1
             </span>
-            <span className="ml-2">Education Centre Details</span>
+            <span className="ml-2">Project One Image</span>
             </figcaption>
             </figure>
         </div>
@@ -60,7 +60,7 @@ export default function Carousel() {
             <span className="inline-block px-2 py-1 text-white bg-black/50 rounded">
                 2
             </span>
-            <span className="ml-2">Education Centre Hover</span>
+            <span className="ml-2">Project Two Image</span>
             </figcaption>
             </figure>
         </div>
@@ -76,7 +76,7 @@ export default function Carousel() {
             <span className="inline-block px-2 py-1 text-white bg-black/50 rounded">
                 3
             </span>
-            <span className="ml-2">Education Centre</span>
+            <span className="ml-2">Project Three Image</span>
             </figcaption>
             </figure>
         </div>
@@ -92,7 +92,7 @@ export default function Carousel() {
             <span className="inline-block px-2 py-1 text-white bg-black/50 rounded">
                 4
             </span>
-            <span className="ml-2">Education Centre Details</span>
+            <span className="ml-2">Project Four Image</span>
             </figcaption>
             </figure>
         </div>
@@ -108,7 +108,7 @@ export default function Carousel() {
             <span className="inline-block px-2 py-1 text-white bg-black/50 rounded">
                 5
             </span>
-            <span className="ml-2">Education Centre Details</span>
+            <span className="ml-2">Project Five Image</span>
             </figcaption>
             </figure>
         </div>

@@ -1,4 +1,3 @@
-import Carousel from './components/carousel'
 import './globals.css'
 import { Fragment } from 'react'
 
@@ -10,7 +9,6 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-center text-blue-700 pb-5">
         Justin Rosecrans - Web Developer Portfolio
       </h1>
-      <Carousel />
       <h2 className="text-3xl font-bold text-center text-blue-500 pt-5 pb-5">
         Proficient in Javascript
       </h2>

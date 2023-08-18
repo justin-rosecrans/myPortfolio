@@ -29,7 +29,7 @@ export default function RootLayout({
         <NavBar />
         {children}
         <Footer />
-        <Script src="flowbite.min.js"
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"
          strategy="beforeInteractive"></Script>
         </body>
     </html>
