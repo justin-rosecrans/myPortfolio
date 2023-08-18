@@ -60,11 +60,27 @@ module.exports = require("next/dist/shared/lib/app-router-context");
 
 /***/ }),
 
+/***/ 1830:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/get-img-props");
+
+/***/ }),
+
 /***/ 199:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/hash");
+
+/***/ }),
+
+/***/ 6864:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/head");
 
 /***/ }),
 
@@ -81,6 +97,22 @@ module.exports = require("next/dist/shared/lib/head-manager-context");
 
 "use strict";
 module.exports = require("next/dist/shared/lib/hooks-client-context");
+
+/***/ }),
+
+/***/ 2210:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config");
+
+/***/ }),
+
+/***/ 5359:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config-context");
 
 /***/ }),
 
@@ -172,6 +204,14 @@ module.exports = require("next/dist/shared/lib/utils");
 
 /***/ }),
 
+/***/ 8658:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils/warn-once");
+
+/***/ }),
+
 /***/ 1017:
 /***/ ((module) => {
 
@@ -213,7 +253,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7751)), "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8884)), "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\page.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
     apple: [],
@@ -249,66 +289,102 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3719:
+/***/ 1873:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8709, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2698, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7833, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9150, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7734, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7698));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9556, 23))
 
 /***/ }),
 
-/***/ 3259:
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ 7751:
+/***/ 8884:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Home)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5553);
-/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_globals_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Home)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./src/app/globals.css
+var globals = __webpack_require__(5553);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
+var react_shared_subset = __webpack_require__(0);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(7495);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+;// CONCATENATED MODULE: ./public/profilePicture.jpg
+/* harmony default export */ const profilePicture = ({"src":"/_next/static/media/profilePicture.bd4d23ba.jpg","height":405,"width":405,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAgACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAAAwEBAQAAAAAAAAAAAAAAAAAABAX/2gAMAwEAAhADEAAAALisD//EABwQAAICAgMAAAAAAAAAAAAAAAECAwQAIREicf/aAAgBAQABPwCaayllka7P2APACa81n//EABsRAAEEAwAAAAAAAAAAAAAAAAEAAgMRBBMh/9oACAECAQE/AGY0OqM0bLbPV//EABkRAAIDAQAAAAAAAAAAAAAAAAECAAMREv/aAAgBAwEBPwBrbC7jrMOT/9k=","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./src/app/page.tsx
+
+
 
 
 
 function Home() {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
+    return /*#__PURE__*/ jsx_runtime_.jsx(react_shared_subset.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
             className: "flex flex-col items-center justify-between py-24 px-16 blue-background",
             children: [
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
+                /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                     className: "text-4xl font-bold text-center text-blue-700 pb-5",
                     children: "Justin Rosecrans - Web Developer Portfolio"
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                    className: "rounded-full",
+                    src: profilePicture,
+                    alt: "Justin Rosecrans",
+                    width: 200,
+                    height: 200
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                     className: "text-3xl font-bold text-center text-blue-500 pt-5 pb-5",
                     children: "Proficient in Javascript"
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                     className: "text-2xl font-bold text-center text-blue-300 pb-5",
                     children: "With a passion for problem solving"
                 }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                /*#__PURE__*/ jsx_runtime_.jsx("h4", {
                     className: "text-1xl font-bold text-center text-blue-100 pb-5",
                     children: "And an artistic flair"
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+                    className: "text-1xl text-black-100 pt-5",
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            children: "Webpage is created with Next.js, Tailwind.css, and Flowbite Components"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            children: "Background image is made created with AI using Open AI Midjourney Engine"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            children: "Some of the ideas of architecture came from using the AI of Chat GPT and GitHub Copilot"
+                        })
+                    ]
                 })
             ]
         })
     });
 }
 
+
+/***/ }),
+
+/***/ 7698:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/profilePicture.bd4d23ba.jpg","height":405,"width":405,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAgACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAAAwEBAQAAAAAAAAAAAAAAAAAABAX/2gAMAwEAAhADEAAAALisD//EABwQAAICAgMAAAAAAAAAAAAAAAECAwQAIREicf/aAAgBAQABPwCaayllka7P2APACa81n//EABsRAAEEAwAAAAAAAAAAAAAAAAEAAgMRBBMh/9oACAECAQE/AGY0OqM0bLbPV//EABkRAAIDAQAAAAAAAAAAAAAAAAECAAMREv/aAAgBAwEBPwBrbC7jrMOT/9k=","blurWidth":8,"blurHeight":8});
 
 /***/ })
 
@@ -319,7 +395,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,739,932], () => (__webpack_exec__(7196)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,997,495,505], () => (__webpack_exec__(7196)));
 module.exports = __webpack_exports__;
 
 })();
