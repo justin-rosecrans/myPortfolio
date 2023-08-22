@@ -5,6 +5,13 @@ exports.id = 155;
 exports.ids = [155];
 exports.modules = {
 
+/***/ 4021:
+/***/ ((module) => {
+
+module.exports = import("next/dist/compiled/@vercel/og/index.node.js");;
+
+/***/ }),
+
 /***/ 2037:
 /***/ ((module) => {
 
@@ -12,7 +19,7 @@ module.exports = require("os");
 
 /***/ }),
 
-/***/ 3436:
+/***/ 7671:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -38,12 +45,13 @@ __webpack_require__.d(favicon_next_metadata_route_namespaceObject, {
 });
 
 // EXTERNAL MODULE: ./node_modules/next/dist/server/node-polyfill-headers.js
-var node_polyfill_headers = __webpack_require__(6519);
+var node_polyfill_headers = __webpack_require__(2394);
 // EXTERNAL MODULE: ./node_modules/next/dist/server/future/route-modules/app-route/module.js
-var app_route_module = __webpack_require__(3488);
-var module_default = /*#__PURE__*/__webpack_require__.n(app_route_module);
-;// CONCATENATED MODULE: external "next/server"
-const server_namespaceObject = require("next/server");
+var app_route_module = __webpack_require__(9692);
+// EXTERNAL MODULE: ./node_modules/next/dist/server/future/route-kind.js
+var route_kind = __webpack_require__(9513);
+// EXTERNAL MODULE: ./node_modules/next/server.js
+var server = __webpack_require__(514);
 ;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-metadata-route-loader.js?page=%2Ffavicon.ico%2Froute&isDynamic=0!./src/app/favicon.ico?__next_metadata_route__
 
 
@@ -52,7 +60,7 @@ const buffer = Buffer.from("AAABAAQAEBAAAAEAIAAoBQAARgAAACAgAAABACAAKBQAAG4FAAAw
   )
 
 function GET() {
-  return new server_namespaceObject.NextResponse(buffer, {
+  return new server.NextResponse(buffer, {
     headers: {
       'Content-Type': contentType,
       'Cache-Control': "public, max-age=0, must-revalidate",
@@ -64,32 +72,35 @@ const dynamic = 'force-static'
 
 ;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=C%3A%5CUsers%5Cjrscr%5Cgit%5CmyPortfolio%5Csrc%5Capp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=&middlewareConfig=e30%3D!
 
-    
+// @ts-ignore this need to be imported from next/dist to be external
 
-    
 
-    
+// @ts-expect-error - replaced by webpack/turbopack loader
 
-    const options = {"definition":{"kind":"APP_ROUTE","page":"/favicon.ico/route","pathname":"/favicon.ico","filename":"favicon","bundlePath":"app/favicon.ico/route"},"resolvedPagePath":"next-metadata-route-loader?page=%2Ffavicon.ico%2Froute&isDynamic=0!C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\favicon.ico?__next_metadata_route__","nextConfigOutput":"export"}
-    const routeModule = new (module_default())({
-      ...options,
-      userland: favicon_next_metadata_route_namespaceObject,
-    })
+const AppRouteRouteModule = app_route_module.AppRouteRouteModule;
+// We inject the nextConfigOutput here so that we can use them in the route
+// module.
+const nextConfigOutput = "export"
+const routeModule = new AppRouteRouteModule({
+    definition: {
+        kind: route_kind.RouteKind.APP_ROUTE,
+        page: "/favicon.ico/route",
+        pathname: "/favicon.ico",
+        filename: "favicon",
+        bundlePath: "app/favicon.ico/route"
+    },
+    resolvedPagePath: "next-metadata-route-loader?page=%2Ffavicon.ico%2Froute&isDynamic=0!C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\favicon.ico?__next_metadata_route__",
+    nextConfigOutput,
+    userland: favicon_next_metadata_route_namespaceObject
+});
+// Pull out the exports that we need to expose from the module. This should
+// be eliminated when we've moved the other routes to the new format. These
+// are used to hook into the route.
+const { requestAsyncStorage , staticGenerationAsyncStorage , serverHooks , headerHooks , staticGenerationBailout  } = routeModule;
+const originalPathname = "/favicon.ico/route";
 
-    // Pull out the exports that we need to expose from the module. This should
-    // be eliminated when we've moved the other routes to the new format. These
-    // are used to hook into the route.
-    const {
-      requestAsyncStorage,
-      staticGenerationAsyncStorage,
-      serverHooks,
-      headerHooks,
-      staticGenerationBailout
-    } = routeModule
 
-    const originalPathname = "/favicon.ico/route"
-
-    
+//# sourceMappingURL=app-route.js.map
 
 /***/ })
 
@@ -100,7 +111,7 @@ const dynamic = 'force-static'
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,451], () => (__webpack_exec__(3436)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,218], () => (__webpack_exec__(7671)));
 module.exports = __webpack_exports__;
 
 })();

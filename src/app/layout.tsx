@@ -4,7 +4,6 @@ import { Inter } from 'next/font/google'
 import NavBar from './components/navBar'
 import Footer from './components/footer'
 import { Fragment } from 'react'
-import Script from 'next/script'
 
 
 //create basic unordered list
@@ -29,8 +28,6 @@ export default function RootLayout({
         <NavBar />
         {children}
         <Footer />
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"
-         strategy="beforeInteractive"></Script>
         </body>
     </html>
     </Fragment>
