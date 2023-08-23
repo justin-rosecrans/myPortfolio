@@ -1,4 +1,4 @@
-import Carousel from "../components/carousel";
+import Carousel from "../components/carousel/Carousel";
 import Accordion from "../components/accordion/Accordion";
 export default function PortfolioPage() {
   return (

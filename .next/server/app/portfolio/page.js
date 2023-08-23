@@ -281,7 +281,7 @@ const tree = {
         'portfolio',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9990)), "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\portfolio\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9827)), "C:\\Users\\jrscr\\git\\myPortfolio\\src\\app\\portfolio\\page.tsx"],
           
         }]
       },
@@ -342,11 +342,11 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 9805:
+/***/ 9603:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8835));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4632))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4632));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 323))
 
 /***/ }),
 
@@ -504,74 +504,187 @@ function CollapseAll() {
 
 /***/ }),
 
-/***/ 8835:
+/***/ 323:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ slideShowCarousel)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(2451);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-;// CONCATENATED MODULE: ./public/carousel/Schwab/Education_Centre_Details.svg
-/* harmony default export */ const Education_Centre_Details = ({"src":"/_next/static/media/Education_Centre_Details.d5703999.svg","height":630,"width":1045,"blurWidth":0,"blurHeight":0});
-;// CONCATENATED MODULE: ./public/carousel/Schwab/Education_Centre_Hover.svg
-/* harmony default export */ const Education_Centre_Hover = ({"src":"/_next/static/media/Education_Centre_Hover.b99dceef.svg","height":630,"width":1045,"blurWidth":0,"blurHeight":0});
-// EXTERNAL MODULE: ./node_modules/flowbite-react/lib/cjs/index.js
-var cjs = __webpack_require__(3773);
-;// CONCATENATED MODULE: ./src/app/components/carousel.tsx
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ slideShowCarousel)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2451);
+/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var flowbite_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3773);
+/* harmony import */ var flowbite_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(flowbite_react__WEBPACK_IMPORTED_MODULE_2__);
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
-
-
 function slideShowCarousel() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(cjs.Carousel, {
-        slideInterval: 5000,
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(flowbite_react__WEBPACK_IMPORTED_MODULE_2__.Carousel, {
+        "data-carousel": "slide",
+        slideInterval: 500000,
         className: "relative w-full h-96 z-0",
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: Education_Centre_Details,
-                className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
-                alt: "Picture of the author",
-                width: 500,
-                height: 500
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                        src: "/carousel/Schwab/Education_Centre.svg",
+                        className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                        alt: "Picture of the author",
+                        width: 500,
+                        height: 500
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "w-full bg-gradient-to-t from-black",
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "text-center",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                            className: "text-2xl font-bold",
+                                            children: "Project One"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            className: "text-sm",
+                                            children: "2023"
+                                        })
+                                    ]
+                                })
+                            })
+                        ]
+                    })
+                ]
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: Education_Centre_Hover,
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                src: "/carousel/Schwab/global_translations.svg",
                 className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
                 width: 500,
                 height: 500,
                 alt: "..."
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: Education_Centre_Hover,
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "w-full bg-gradient-to-t from-black",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "text-center",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                    className: "text-2xl font-bold",
+                                    children: "Project Two"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    className: "text-sm",
+                                    children: "2023"
+                                })
+                            ]
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                src: "/carousel/Schwab/Education_Centre_Hover.svg",
                 className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
                 width: 500,
                 height: 500,
                 alt: "..."
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: Education_Centre_Hover,
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "w-full bg-gradient-to-t from-black",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "text-center",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                    className: "text-2xl font-bold",
+                                    children: "Project Three"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    className: "text-sm",
+                                    children: "2023"
+                                })
+                            ]
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                src: "/carousel/Schwab/global_translations.svg",
                 className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
                 width: 500,
                 height: 500,
                 alt: "..."
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: Education_Centre_Hover,
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "w-full bg-gradient-to-t from-black",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "text-center",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                    className: "text-2xl font-bold",
+                                    children: "Project Four"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    className: "text-sm",
+                                    children: "2023"
+                                })
+                            ]
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                src: "/carousel/Schwab/Education_Centre_Hover.svg",
                 className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
                 width: 500,
                 height: 500,
                 alt: "..."
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: "w-full bg-gradient-to-t from-black",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "text-center",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                    className: "text-2xl font-bold",
+                                    children: "Project Five"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    className: "text-sm",
+                                    children: "2023"
+                                })
+                            ]
+                        })
+                    })
+                ]
             })
         ]
     });
@@ -580,7 +693,7 @@ function slideShowCarousel() {
 
 /***/ }),
 
-/***/ 9990:
+/***/ 9827:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -596,9 +709,9 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(6786);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
 var module_proxy = __webpack_require__(1363);
-;// CONCATENATED MODULE: ./src/app/components/carousel.tsx
+;// CONCATENATED MODULE: ./src/app/components/carousel/Carousel.tsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\jrscr\git\myPortfolio\src\app\components\carousel.tsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\jrscr\git\myPortfolio\src\app\components\carousel\Carousel.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -608,7 +721,7 @@ const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
 
-/* harmony default export */ const carousel = (__default__);
+/* harmony default export */ const Carousel = (__default__);
 ;// CONCATENATED MODULE: ./src/app/components/accordion/Accordion.tsx
 
 const Accordion_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\jrscr\git\myPortfolio\src\app\components\accordion\Accordion.tsx`)
@@ -633,7 +746,7 @@ function PortfolioPage() {
             /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                 children: "Portfolio Page"
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx(carousel, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Carousel, {}),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: "pt-24 px-16 w-screen",
                 children: /*#__PURE__*/ jsx_runtime_.jsx(Accordion, {})
