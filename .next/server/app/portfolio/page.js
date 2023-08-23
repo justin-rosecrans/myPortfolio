@@ -765,7 +765,7 @@ function PortfolioPage() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,607,380,135,186], () => (__webpack_exec__(8209)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,879,773,29], () => (__webpack_exec__(8209)));
 module.exports = __webpack_exports__;
 
 })();

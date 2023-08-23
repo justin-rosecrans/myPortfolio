@@ -76,6 +76,14 @@ module.exports = require("next/dist/shared/lib/app-router-context");
 
 /***/ }),
 
+/***/ 1830:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/get-img-props");
+
+/***/ }),
+
 /***/ 199:
 /***/ ((module) => {
 
@@ -84,11 +92,35 @@ module.exports = require("next/dist/shared/lib/hash");
 
 /***/ }),
 
+/***/ 6864:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/head");
+
+/***/ }),
+
 /***/ 9569:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/hooks-client-context");
+
+/***/ }),
+
+/***/ 2210:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config");
+
+/***/ }),
+
+/***/ 5359:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config-context");
 
 /***/ }),
 
@@ -185,6 +217,14 @@ module.exports = require("next/dist/shared/lib/server-inserted-html");
 
 "use strict";
 module.exports = require("next/dist/shared/lib/utils");
+
+/***/ }),
+
+/***/ 8658:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
@@ -383,7 +423,7 @@ function Biography() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,607,186], () => (__webpack_exec__(4530)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,879,29], () => (__webpack_exec__(4530)));
 module.exports = __webpack_exports__;
 
 })();
