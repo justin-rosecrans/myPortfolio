@@ -5,6 +5,10 @@ import NavBar from './components/navBar'
 import Footer from './components/footer'
 import { Fragment } from 'react'
 
+
+//create basic unordered list
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -24,7 +28,6 @@ export default function RootLayout({
         <NavBar />
         {children}
         <Footer />
-        <script src="flowbite.min.js"></script>
         </body>
     </html>
     </Fragment>
