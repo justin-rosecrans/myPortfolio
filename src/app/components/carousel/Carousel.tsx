@@ -47,7 +47,7 @@ export default function slideShowCarousel() {
       </div>
       <div>
         <Image
-          src="/carousel/Schwab/global_translations.svg"
+          src="/carousel/Schwab/Upload_Forms.svg"
           className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md"
           width={500}
           height={500}

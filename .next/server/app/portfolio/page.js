@@ -342,11 +342,11 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 9603:
+/***/ 9014:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4632));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 323))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 323));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4632))
 
 /***/ }),
 
@@ -444,7 +444,10 @@ function CollapseAll() {
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "Projects Showcase:"
                                             }),
-                                            " Highlight your best and most diverse projects, including websites, web applications, and any other relevant work."
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "This project was to have clients upload files to the server and then have the server process the files and send them to a database. These include w8ben forms, w8ben-e forms, and w9 forms. The goal was to create a responsive upload form that would work on mobile and desktop."
+                                            })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
@@ -453,7 +456,18 @@ function CollapseAll() {
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "Case Studies:"
                                             }),
-                                            " Detailed breakdowns of your projects, showcasing challenges, solutions, and your role in each project."
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "This was one of my favorite projects to work on as it required me to learn new coding ideas and techniques. The challenge was making this work with a legacy framework of Angular1. There is not much support for Angular1 anymore and the libraries that do support it are not very well maintained. So I had to create my own custom directive to make it work with Angular1. It utilized the HTML5 File API and FormData to upload files to the server. This would then go to an API server that would process the files and send them to a database. The API server was called by Java using the Maven framework."
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "Another challenge was to think of security and how to prevent users from uploading malicious files. After talking with a security expert, on another team, I was able to come up with a solution to prevent malicious files from being uploaded. The solution was to add to the custom directive to check the file type and size before uploading it to the server."
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "The project took awhile, about a month, to complete as I had to think of ideas and chat with other developers across my team and several other teams to come up with a solution. Ultimately, the goal was to create a responsive upload form that would work on mobile and desktop. Which turned out to be very successful."
+                                            })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
@@ -462,7 +476,9 @@ function CollapseAll() {
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "Technologies Used:"
                                             }),
-                                            " Specify the technologies, languages, frameworks, and tools you used for each project."
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "AngularJS, SASS/CSS, HTML5, FormatData, File API, API, JavaScript, Grunt, CSS Animation, Slick.js, and Maven"
+                                            })
                                         ]
                                     })
                                 ]
@@ -616,7 +632,7 @@ function slideShowCarousel() {
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                        src: "/carousel/Schwab/global_translations.svg",
+                        src: "/carousel/Schwab/Upload_Forms.svg",
                         className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
                         width: 500,
                         height: 500,
@@ -775,8 +791,9 @@ function PortfolioPage() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: "flex flex-col items-center justify-between py-24 px-16 blue-background",
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                children: "Portfolio Page"
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                className: "text-4xl font-bold text-center text-blue-700 pb-5",
+                children: "Portfolio"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Carousel, {}),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
