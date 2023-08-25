@@ -342,11 +342,11 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 9014:
+/***/ 9603:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 323));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4632))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4632));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 323))
 
 /***/ }),
 
@@ -814,7 +814,7 @@ function PortfolioPage() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,879,773,29], () => (__webpack_exec__(8209)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,611,773,315], () => (__webpack_exec__(8209)));
 module.exports = __webpack_exports__;
 
 })();

@@ -20,14 +20,9 @@ export default function Home() {
       <h3 className="text-2xl font-bold text-center text-blue-300 pb-5">
         Proficient in Javascript
       </h3>
-      <h4 className="text-1xl font-bold text-center text-blue-100 pb-5">
-        With a touch of artistic flair
-      </h4>
       
       <section className="text-1xl text-black-100 pt-5">
         <div>Webpage is created with Next.js, Tailwind.css, and Flowbite Components</div>
-        <div>Background image and logo are created with AI using Open AI Midjourney Engine</div>
-        <div>Some of the ideas of architecture came from using the AI of Chat GPT and GitHub Copilot</div>
       </section>
     </main>
     </Fragment>

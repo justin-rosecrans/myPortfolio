@@ -369,45 +369,12 @@ function Biography() {
                 children: "Biography:"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "Hello! I'm Justin Rosecrans, a passionate individual with a love for exploration and a deep appreciation for both the creative and the technical. My life is a journey through worlds of imagination and innovation."
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                className: "block text-2xl font-bold text-left text-blue-700 py-5",
-                children: "A Sci-Fi Enthusiast and Avid Reader"
+                className: "my-6",
+                children: "Justin Rosecrans is a Senior Front End Web Developer. He is a results-oriented web developer with 12+ years experience in modern front-end technologies. He currently works at Charles Schwab, a Fortune 500 financial services company. Justin has previously built and designed websites for Fanatics, Nokia and other companies. Justin has a Bachelor of Arts Degree in Computer Science and Art and has taken Master of Arts classes in Computer Science."
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "When I'm not busy delving into the intricacies of programming languages, you'll often find me immersed in the captivating realm of science fiction. I'm a devoted follower of shows like Star Trek, where I eagerly voyage through the cosmos alongside intrepid space explorers. The allure of fantastical tales doesn't stop there – I'm an avid reader too. My bookshelf proudly displays a collection that spans from the mythical lands of Middle-earth in Lord of the Rings to the enigmatic adventures of Geralt of Rivia in The Witcher series. I've traversed the dimensions of time in H.G. Wells' Time Machine and embarked on epic quests with the heroes of Wheel of Time."
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                className: "block text-2xl font-bold text-left text-blue-700 py-5",
-                children: "Family and Compassion"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "Beyond my adventures in fiction and code, my heart belongs to my loving family. Their unwavering support and warmth are the cornerstones of my life, grounding me in a sense of belonging and purpose. Together, we share laughter, create memories, and find joy in each other's company."
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                className: "block text-2xl font-bold text-left text-blue-700 py-5",
-                children: "Champion of Four-Legged Friends"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "My compassion extends to the animal kingdom, particularly the graceful Greyhounds. The act of rescuing and caring for these magnificent creatures brings me immense fulfillment. With each adoption, I'm reminded of the importance of empathy and the bond that can exist between humans and their furry companions."
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                className: "block text-2xl font-bold text-left text-blue-700 py-5",
-                children: "Exploring Code Universes"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "Programming languages are my playgrounds, and I revel in the opportunity to dive into their intricacies. From harnessing the power of React.js and Vue.js to crafting seamless user experiences with Next.js, I'm on a perpetual journey of exploration. My coding odyssey encompasses more languages than stars in the galaxy, each one adding a new dimension to my creative arsenal."
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                className: "block text-2xl font-bold text-left text-blue-700 py-5",
-                children: "The Art of Optimal Utilization"
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "Learning is my true passion, and I strive to extract the essence of knowledge and apply it in the most optimized way. This pursuit drives me to continuously refine my skills, find elegant solutions, and create meaningful, efficient projects that leave a lasting impact."
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                children: "In a world that beckons with the promise of discovery and the thrill of creation, I am [Your Name], a dreamer, a coder, a reader, a rescuer, and a dedicated explorer of all that this extraordinary life has to offer."
+                className: "my-6",
+                children: "Aside from work, Justin loves spending time with his wife and their four young children. He also has a passion for science fiction books, TV shows and movies. Justin has a rescued greyhound and supports greyhound and animal rescue organizations."
             })
         ]
     });
@@ -423,7 +390,7 @@ function Biography() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,879,29], () => (__webpack_exec__(4530)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,611,315], () => (__webpack_exec__(4530)));
 module.exports = __webpack_exports__;
 
 })();

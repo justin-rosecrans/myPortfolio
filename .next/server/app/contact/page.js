@@ -372,22 +372,8 @@ function ContactPage() {
                     children: "Contact"
                 }),
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "w-full flex flex-col items-center justify-between py-24 px-16 bg-white rounded-xl",
+                    className: "w-full flex flex-col justify-between py-24 px-16 bg-white rounded-xl",
                     children: [
-                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: "text-xl font-bold text-blue-700 pb-5",
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "text-blue-400",
-                                    children: "Twitter:"
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    href: "https://twitter.com/J_Rosecrans",
-                                    target: "_blank",
-                                    children: "@J_Rosecrans"
-                                })
-                            ]
-                        }),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: "text-xl font-bold text-blue-700 pb-5",
                             children: [
@@ -429,82 +415,6 @@ function ContactPage() {
                                     children: "justin-rosecrans"
                                 })
                             ]
-                        }),
-                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: "text-xl font-bold text-blue-700 pb-5",
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "text-blue-400",
-                                    children: "Facebook:"
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    href: "https://www.facebook.com/justin.rosecrans.1",
-                                    target: "_blank",
-                                    children: "justin.rosecrans.1"
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: "text-xl font-bold text-blue-700 pb-5",
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "text-blue-400",
-                                    children: "Deviant Art:"
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    href: "https://www.deviantart.com/teal-miestro",
-                                    target: "_blank",
-                                    children: "teal-miestro"
-                                })
-                            ]
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                    children: "Leave Feedback Comment Form: (Under Construction)"
-                }),
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
-                    name: "contact",
-                    method: "POST",
-                    "data-netlify": "true",
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("label", {
-                                children: [
-                                    "Your Name: ",
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
-                                        type: "text",
-                                        name: "name"
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("label", {
-                                children: [
-                                    "Your Email: ",
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
-                                        type: "email",
-                                        name: "email"
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("label", {
-                                children: [
-                                    "Message: ",
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
-                                        name: "message"
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                type: "submit",
-                                children: "Send"
-                            })
                         })
                     ]
                 })
@@ -523,7 +433,7 @@ function ContactPage() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,879,29], () => (__webpack_exec__(7800)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,611,315], () => (__webpack_exec__(7800)));
 module.exports = __webpack_exports__;
 
 })();
