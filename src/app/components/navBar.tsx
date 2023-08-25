@@ -21,7 +21,7 @@ export default function NavBar() {
               height={100}
             />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Welcome
+          J.Rosecrans
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
@@ -37,7 +37,7 @@ export default function NavBar() {
           </p>
         </Navbar.Link>
         <Navbar.Link href="/biography">
-          About Me
+          Biography
         </Navbar.Link>
         <Navbar.Link href="/portfolio">
           Portfolio
