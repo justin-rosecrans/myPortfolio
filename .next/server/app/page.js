@@ -377,7 +377,7 @@ function Home() {
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                     className: "text-4xl font-bold text-center text-blue-700 pb-5",
-                    children: "Justin Rosecrans - Web Developer Portfolio"
+                    children: "Justin Rosecrans - Software Engineer Portfolio"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     className: "rounded-full",
@@ -394,23 +394,11 @@ function Home() {
                     className: "text-2xl font-bold text-center text-blue-300 pb-5",
                     children: "Proficient in Javascript"
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                    className: "text-1xl font-bold text-center text-blue-100 pb-5",
-                    children: "With a touch of artistic flair"
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+                /*#__PURE__*/ jsx_runtime_.jsx("section", {
                     className: "text-1xl text-black-100 pt-5",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            children: "Webpage is created with Next.js, Tailwind.css, and Flowbite Components"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            children: "Background image is made created with AI using Open AI Midjourney Engine"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            children: "Some of the ideas of architecture came from using the AI of Chat GPT and GitHub Copilot"
-                        })
-                    ]
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        children: "Webpage is created with Next.js, Tailwind.css, and Flowbite Components"
+                    })
                 })
             ]
         })
@@ -439,7 +427,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,607,380,178,186], () => (__webpack_exec__(6770)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,611,315], () => (__webpack_exec__(6770)));
 module.exports = __webpack_exports__;
 
 })();

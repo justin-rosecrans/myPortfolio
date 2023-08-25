@@ -386,7 +386,10 @@ function CollapseAll() {
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "Projects Showcase:"
                                             }),
-                                            " Highlight your best and most diverse projects, including websites, web applications, and any other relevant work."
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "This project was a complete redesign of the Schwab Education Center. The goal was to create a more modern and responsive design that would work on mobile and desktop. The project was built on a legacy framework of Angular1 and was a challenge to make it work responsively."
+                                            })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
@@ -395,16 +398,29 @@ function CollapseAll() {
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "Case Studies:"
                                             }),
-                                            " Detailed breakdowns of your projects, showcasing challenges, solutions, and your role in each project."
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "The challenging part of this project was to create a carousel that would work responsively for mobile on a legacy framework of Angular1. Not many javascript libraries support Angular1 anymore and the ones that do are not very well maintained. So most of the work was done with vanilla javascript."
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "The solution was to use Slick.js and create a custom directive to make it work with Angular1. I then added some custom animations and transitions with CSS to make it look more appealing."
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "I was the sole developer for the front end and UI of this project and worked with a team of 3 other developers who did the back end and API work."
+                                            })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
-                                        className: "mb-1",
+                                        className: "py-2",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "Technologies Used:"
                                             }),
-                                            " Specify the technologies, languages, frameworks, and tools you used for each project."
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "AngularJS, SASS/CSS, HTML5, JavaScript, Grunt, CSS Animation, Slick.js, and Maven"
+                                            })
                                         ]
                                     })
                                 ]
@@ -428,7 +444,10 @@ function CollapseAll() {
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "Projects Showcase:"
                                             }),
-                                            " Highlight your best and most diverse projects, including websites, web applications, and any other relevant work."
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "This project was to have clients upload files to the server and then have the server process the files and send them to a database. These include w8ben forms, w8ben-e forms, and w9 forms. The goal was to create a responsive upload form that would work on mobile and desktop."
+                                            })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
@@ -437,7 +456,18 @@ function CollapseAll() {
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "Case Studies:"
                                             }),
-                                            " Detailed breakdowns of your projects, showcasing challenges, solutions, and your role in each project."
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "This was one of my favorite projects to work on as it required me to learn new coding ideas and techniques. The challenge was making this work with a legacy framework of Angular1. There is not much support for Angular1 anymore and the libraries that do support it are not very well maintained. So I had to create my own custom directive to make it work with Angular1. It utilized the HTML5 File API and FormData to upload files to the server. This would then go to an API server that would process the files and send them to a database. The API server was called by Java using the Maven framework."
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "Another challenge was to think of security and how to prevent users from uploading malicious files. After talking with a security expert, on another team, I was able to come up with a solution to prevent malicious files from being uploaded. The solution was to add to the custom directive to check the file type and size before uploading it to the server."
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "py-2",
+                                                children: "The project took awhile, about a month, to complete as I had to think of ideas and chat with other developers across my team and several other teams to come up with a solution. Ultimately, the goal was to create a responsive upload form that would work on mobile and desktop. Which turned out to be very successful."
+                                            })
                                         ]
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
@@ -446,7 +476,9 @@ function CollapseAll() {
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("b", {
                                                 children: "Technologies Used:"
                                             }),
-                                            " Specify the technologies, languages, frameworks, and tools you used for each project."
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                children: "AngularJS, SASS/CSS, HTML5, FormatData, File API, API, JavaScript, Grunt, CSS Animation, Slick.js, and Maven"
+                                            })
                                         ]
                                     })
                                 ]
@@ -524,7 +556,7 @@ __webpack_require__.r(__webpack_exports__);
 function slideShowCarousel() {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(flowbite_react__WEBPACK_IMPORTED_MODULE_2__.Carousel, {
         "data-carousel": "slide",
-        slideInterval: 500000,
+        slideInterval: 5000,
         className: "relative w-full h-96 z-0",
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -562,127 +594,143 @@ function slideShowCarousel() {
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                src: "/carousel/Schwab/global_translations.svg",
-                className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
-                width: 500,
-                height: 500,
-                alt: "..."
-            }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "w-full bg-gradient-to-t from-black",
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                        src: "/carousel/Schwab/Education_Centre_Hover.svg",
+                        className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                        width: 500,
+                        height: 500,
+                        alt: "..."
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
-                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: "text-center",
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                    className: "text-2xl font-bold",
-                                    children: "Project Two"
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: "text-sm",
-                                    children: "2023"
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "w-full bg-gradient-to-t from-black",
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "text-center",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                            className: "text-2xl font-bold",
+                                            children: "Project One"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            className: "text-sm",
+                                            children: "2023"
+                                        })
+                                    ]
                                 })
-                            ]
-                        })
+                            })
+                        ]
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                src: "/carousel/Schwab/Education_Centre_Hover.svg",
-                className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
-                width: 500,
-                height: 500,
-                alt: "..."
-            }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "w-full bg-gradient-to-t from-black",
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                        src: "/carousel/Schwab/Upload_Forms.svg",
+                        className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                        width: 500,
+                        height: 500,
+                        alt: "..."
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
-                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: "text-center",
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                    className: "text-2xl font-bold",
-                                    children: "Project Three"
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: "text-sm",
-                                    children: "2023"
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "w-full bg-gradient-to-t from-black",
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "text-center",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                            className: "text-2xl font-bold",
+                                            children: "Project Two"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            className: "text-sm",
+                                            children: "2023"
+                                        })
+                                    ]
                                 })
-                            ]
-                        })
+                            })
+                        ]
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                src: "/carousel/Schwab/global_translations.svg",
-                className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
-                width: 500,
-                height: 500,
-                alt: "..."
-            }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "w-full bg-gradient-to-t from-black",
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                        src: "/carousel/Schwab/global_translations.svg",
+                        className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                        width: 500,
+                        height: 500,
+                        alt: "..."
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
-                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: "text-center",
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                    className: "text-2xl font-bold",
-                                    children: "Project Four"
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: "text-sm",
-                                    children: "2023"
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "w-full bg-gradient-to-t from-black",
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "text-center",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                            className: "text-2xl font-bold",
+                                            children: "Project Four"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            className: "text-sm",
+                                            children: "2023"
+                                        })
+                                    ]
                                 })
-                            ]
-                        })
+                            })
+                        ]
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                src: "/carousel/Schwab/Education_Centre_Hover.svg",
-                className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
-                width: 500,
-                height: 500,
-                alt: "..."
-            }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "w-full bg-gradient-to-t from-black",
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                        src: "/carousel/Schwab/Education_Centre_Hover.svg",
+                        className: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-screen-md",
+                        width: 500,
+                        height: 500,
+                        alt: "..."
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
-                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: "text-center",
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                    className: "text-2xl font-bold",
-                                    children: "Project Five"
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                    className: "text-sm",
-                                    children: "2023"
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "w-full bg-gradient-to-t from-black",
+                        children: [
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "w-full h-24 bg-gradient-to-t from-black opacity-50"
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "absolute bottom-0 left-0 w-full h-24 flex items-center justify-center text-white",
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: "text-center",
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
+                                            className: "text-2xl font-bold",
+                                            children: "Project Five"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            className: "text-sm",
+                                            children: "2023"
+                                        })
+                                    ]
                                 })
-                            ]
-                        })
+                            })
+                        ]
                     })
                 ]
             })
@@ -743,8 +791,9 @@ function PortfolioPage() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         className: "flex flex-col items-center justify-between py-24 px-16 blue-background",
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                children: "Portfolio Page"
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                className: "text-4xl font-bold text-center text-blue-700 pb-5",
+                children: "Portfolio"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Carousel, {}),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -765,7 +814,7 @@ function PortfolioPage() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,607,380,135,186], () => (__webpack_exec__(8209)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,611,773,315], () => (__webpack_exec__(8209)));
 module.exports = __webpack_exports__;
 
 })();

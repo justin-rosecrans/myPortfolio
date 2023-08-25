@@ -1,6 +1,11 @@
 {
-  "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+<<<<<<< HEAD
+  "/page": "app/page.js",
   "/biography/page": "app/biography/page.js",
+  "/contact/page": "app/contact/page.js",
+=======
+  "/biography/page": "app/biography/page.js",
+>>>>>>> 21bb6c82ed3d43c0ec8aa247007638c5d506f192
   "/portfolio/page": "app/portfolio/page.js"
 }
