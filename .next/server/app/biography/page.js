@@ -390,7 +390,7 @@ function Biography() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,611,315], () => (__webpack_exec__(4530)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,5,315], () => (__webpack_exec__(4530)));
 module.exports = __webpack_exports__;
 
 })();
