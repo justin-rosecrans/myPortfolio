@@ -32,3 +32,11 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.carousel button span {
+  background-color: rgb(12, 32, 213);
+}
+
+.carousel button span:hover {
+  background-color: rgb(44, 99, 225) !important;
+}

@@ -8,7 +8,7 @@ export default function PortfolioPage() {
       </h1>
       <Carousel />
       <div className="pt-24 px-16 w-screen">
-        <Accordion />
+        {/* <Accordion /> */}
       </div>
     </section>
   );

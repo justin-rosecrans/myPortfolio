@@ -15,10 +15,10 @@ export default function Home() {
       <Image className="rounded-full" src={profilePicture} alt="Justin Rosecrans" width={200} height={200} />
 
       <h2 className="text-3xl font-bold text-center text-blue-500 pt-5 pb-5">
-        Building the Web, One Pixel at a Time
+        Developing the Web, One Pixel at a Time
       </h2>
       <h3 className="text-2xl font-bold text-center text-blue-300 pb-5">
-        Proficient in Javascript
+        Proficient in JavaScript
       </h3>
       
       <section className="text-1xl text-black-100 pt-5">

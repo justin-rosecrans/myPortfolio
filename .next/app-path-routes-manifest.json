@@ -1,11 +1,7 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
-<<<<<<< HEAD
   "/page": "/",
+  "/favicon.ico/route": "/favicon.ico",
   "/biography/page": "/biography",
   "/contact/page": "/contact",
-=======
-  "/biography/page": "/biography",
->>>>>>> 21bb6c82ed3d43c0ec8aa247007638c5d506f192
   "/portfolio/page": "/portfolio"
 }

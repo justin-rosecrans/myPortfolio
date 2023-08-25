@@ -370,7 +370,7 @@ function Biography() {
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 className: "my-6",
-                children: "Justin Rosecrans is a Senior Front End Web Developer. He is a results-oriented web developer with 12+ years experience in modern front-end technologies. He currently works at Charles Schwab, a Fortune 500 financial services company. Justin has previously built and designed websites for Fanatics, Nokia and other companies. Justin has a Bachelor of Arts Degree in Computer Science and Art and has taken Master of Arts classes in Computer Science."
+                children: "Justin Rosecrans is a Senior Front End Web Developer. He is a results-oriented web developer with 12+ years experience in modern front-end technologies. He currently works at Charles Schwab, a Fortune 500 financial services company. Justin has previously built and designed websites for TD Ameritrade, Fanatics, Nokia and other companies. Justin has a Bachelor of Arts Degree in Computer Science and Art and has taken Master of Arts classes in Computer Science."
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                 className: "my-6",

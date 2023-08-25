@@ -388,11 +388,11 @@ function Home() {
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                     className: "text-3xl font-bold text-center text-blue-500 pt-5 pb-5",
-                    children: "Building the Web, One Pixel at a Time"
+                    children: "Developing the Web, One Pixel at a Time"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("h3", {
                     className: "text-2xl font-bold text-center text-blue-300 pb-5",
-                    children: "Proficient in Javascript"
+                    children: "Proficient in JavaScript"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("section", {
                     className: "text-1xl text-black-100 pt-5",

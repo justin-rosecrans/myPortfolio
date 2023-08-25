@@ -128,8 +128,10 @@ function NavBar() {
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                        href: "/contact",
+                                        download: true,
+                                        href: "https://docs.google.com/document/d/1yPKqI_hsBg1rtFWPSvCSTArghoFzUyGqxwL__xTlJNQ/edit?usp=sharing",
                                         className: "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
+                                        target: "_blank",
                                         children: "Resume"
                                     })
                                 }),
@@ -337,6 +339,36 @@ function Footer() {
                                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                             className: "sr-only",
                                             children: "GitHub account"
+                                        })
+                                    ]
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: "flex mt-4 space-x-5 sm:justify-center sm:mt-0",
+                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                                    href: "https://www.linkedin.com/in/justin-rosecrans-7b956a5a/",
+                                    className: "text-gray-500 hover:text-gray-900 dark:hover:text-white",
+                                    children: [
+                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("svg", {
+                                            className: "w-6 h-6 text-gray-800 dark:text-white",
+                                            "aria-hidden": "true",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            fill: "currentColor",
+                                            viewBox: "0 0 15 15",
+                                            children: [
+                                                /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                    "fill-rule": "evenodd",
+                                                    d: "M7.979 5v1.586a3.5 3.5 0 0 1 3.082-1.574C14.3 5.012 15 7.03 15 9.655V15h-3v-4.738c0-1.13-.229-2.584-1.995-2.584-1.713 0-2.005 1.23-2.005 2.5V15H5.009V5h2.97ZM3 2.487a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z",
+                                                    "clip-rule": "evenodd"
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                                                    d: "M3 5.012H0V15h3V5.012Z"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "sr-only",
+                                            children: "LinkedIn account"
                                         })
                                     ]
                                 })
