@@ -377,7 +377,7 @@ function Home() {
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                     className: "text-4xl font-bold text-center text-blue-700 pb-5",
-                    children: "Justin Rosecrans - Software Engineer Portfolio"
+                    children: "Justin Rosecrans - Senior Front-End Portfolio"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     className: "rounded-full",

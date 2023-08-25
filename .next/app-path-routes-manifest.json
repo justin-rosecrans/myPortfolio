@@ -1,7 +1,7 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
+  "/favicon.ico/route": "/favicon.ico",
   "/biography/page": "/biography",
-  "/contact/page": "/contact",
-  "/portfolio/page": "/portfolio"
+  "/portfolio/page": "/portfolio",
+  "/contact/page": "/contact"
 }
