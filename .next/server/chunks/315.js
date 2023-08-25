@@ -129,7 +129,7 @@ function NavBar() {
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                         download: true,
-                                        href: "https://docs.google.com/document/d/1yPKqI_hsBg1rtFWPSvCSTArghoFzUyGqxwL__xTlJNQ/edit?usp=sharing",
+                                        href: "https://docs.google.com/document/d/19ags66Az6878JCfHaA6ev2xcobrB8OA5Eyh39U0t-wk/edit?usp=sharing",
                                         className: "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700",
                                         target: "_blank",
                                         children: "Resume"
