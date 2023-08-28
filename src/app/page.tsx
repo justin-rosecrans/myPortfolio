@@ -9,7 +9,7 @@ export default function Home() {
     <Fragment>
     <main className="flex flex-col items-center justify-between py-24 px-16 blue-background">
       <h1 className="text-4xl font-bold text-center text-blue-700 pb-5">
-        Justin Rosecrans - Senior Front-End Portfolio
+        Justin Rosecrans - Senior Front-End Developer
       </h1>
 
       <Image className="rounded-full" src={profilePicture} alt="Justin Rosecrans" width={200} height={200} />
