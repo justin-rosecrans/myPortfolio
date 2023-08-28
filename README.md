@@ -1,5 +1,5 @@
 ## This is my Portfolio as a Professional Front-End Developer
-This use the next.js framework and is deployed trough vercel
+This repository uses the next.js framework and is deployed through vercel
 
 
 ## Follow me on LinkedIn:
