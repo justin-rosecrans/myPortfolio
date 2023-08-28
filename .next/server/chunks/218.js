@@ -1051,7 +1051,7 @@ function normalizeCookie(cookie = {
 
 /***/ }),
 
-/***/ 9798:
+/***/ 1149:
 /***/ ((module) => {
 
 
@@ -8109,7 +8109,7 @@ _export(exports, {
         return _default;
     }
 });
-const _routemodule = __webpack_require__(4877);
+const _routemodule = __webpack_require__(6649);
 const _requestasyncstoragewrapper = __webpack_require__(5208);
 const _staticgenerationasyncstoragewrapper = __webpack_require__(3204);
 const _responsehandlers = __webpack_require__(1332);
@@ -8468,7 +8468,7 @@ function handleInternalServerErrorResponse() {
 
 /***/ }),
 
-/***/ 4877:
+/***/ 6649:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -9114,9 +9114,9 @@ let api;
 // the API is ~stable, so this should be fine
 if (false) {} else {
     try {
-        api = __webpack_require__(9798);
+        api = __webpack_require__(1149);
     } catch (err) {
-        api = __webpack_require__(9798);
+        api = __webpack_require__(1149);
     }
 }
 const { context, trace, SpanStatusCode, SpanKind } = api;
@@ -10881,7 +10881,7 @@ function addPathPrefix(path, prefix) {
 
 /***/ }),
 
-/***/ 6660:
+/***/ 8225:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -10946,7 +10946,7 @@ Object.defineProperty(exports, "formatNextPathnameInfo", ({
 }));
 const _removetrailingslash = __webpack_require__(5105);
 const _addpathprefix = __webpack_require__(2595);
-const _addpathsuffix = __webpack_require__(6660);
+const _addpathsuffix = __webpack_require__(8225);
 const _addlocale = __webpack_require__(8625);
 function formatNextPathnameInfo(info) {
     let pathname = (0, _addlocale.addLocale)(info.pathname, info.locale, info.buildId ? undefined : info.defaultLocale, info.ignorePrefix);
