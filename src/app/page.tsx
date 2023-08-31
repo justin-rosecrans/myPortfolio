@@ -22,7 +22,15 @@ export default function Home() {
       </h3>
       
       <section className="text-1xl text-black-100 pt-5">
-        <div>Webpage is created with Next.js, Tailwind.css, and Flowbite Components</div>
+        <div>Webpage is created with:</div>
+        <ul>
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>Javascript</li>
+          <li>Next.js</li>
+          <li>Tailwind.css</li>
+          <li>Flowbite Components</li>
+        </ul>
       </section>
     </main>
     </Fragment>

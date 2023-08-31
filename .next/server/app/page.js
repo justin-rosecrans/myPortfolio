@@ -333,6 +333,18 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
+/***/ 3466:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23))
+
+/***/ }),
+
 /***/ 8759:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -394,11 +406,35 @@ function Home() {
                     className: "text-2xl font-bold text-center text-blue-300 pb-5",
                     children: "Proficient in JavaScript"
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx("section", {
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
                     className: "text-1xl text-black-100 pt-5",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        children: "Webpage is created with Next.js, Tailwind.css, and Flowbite Components"
-                    })
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            children: "Webpage is created with:"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: "React"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: "TypeScript"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: "Javascript"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: "Next.js"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: "Tailwind.css"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: "Flowbite Components"
+                                })
+                            ]
+                        })
+                    ]
                 })
             ]
         })
@@ -427,7 +463,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,5,335], () => (__webpack_exec__(6770)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,5,542], () => (__webpack_exec__(6770)));
 module.exports = __webpack_exports__;
 
 })();
