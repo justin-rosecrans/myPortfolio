@@ -3,7 +3,7 @@ import { Fragment } from "react";
 export default function ContactPage() {
   return (
     <Fragment>
-    <section className="flex flex-col items-center justify-between py-24 px-16 blue-background">
+    <section className="flex flex-col items-center justify-between py-5 px-16 blue-background">
       <h1 className="text-4xl font-bold text-center text-blue-700 pb-5">
         Contact
       </h1>

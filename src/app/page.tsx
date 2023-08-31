@@ -7,7 +7,7 @@ import profilePicture from '../../public/profilePicture.jpg'
 export default function Home() {
   return (
     <Fragment>
-    <main className="flex flex-col items-center justify-between py-24 px-16 blue-background">
+    <main className="flex flex-col items-center justify-between py-5 px-16 blue-background">
       <h1 className="text-4xl font-bold text-center text-blue-700 pb-5">
         Justin Rosecrans - Senior Front-End Developer
       </h1>
@@ -21,16 +21,8 @@ export default function Home() {
         Proficient in JavaScript
       </h3>
       
-      <section className="text-1xl text-black-100 pt-5">
-        <div>Webpage is created with:</div>
-        <ul>
-          <li>React</li>
-          <li>TypeScript</li>
-          <li>Javascript</li>
-          <li>Next.js</li>
-          <li>Tailwind.css</li>
-          <li>Flowbite Components</li>
-        </ul>
+      <section className="text-1xl text-black-100 text-center">
+        <p>Webpage is created with: React, TypeScript, JavaScript, <br /> Next.js, Tailwind.css, Flowbite Components</p>
       </section>
     </main>
     </Fragment>

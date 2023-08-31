@@ -342,18 +342,6 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 6880:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23))
-
-/***/ }),
-
 /***/ 7966:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -484,6 +472,16 @@ const carousel = (props)=>{
         emblaMainApi,
         onSelect
     ]);
+    const scrollPrev = (0,react_.useCallback)(()=>{
+        if (emblaMainApi) emblaMainApi.scrollPrev();
+    }, [
+        emblaMainApi
+    ]);
+    const scrollNext = (0,react_.useCallback)(()=>{
+        if (emblaMainApi) emblaMainApi.scrollNext();
+    }, [
+        emblaMainApi
+    ]);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         className: "embla",
         children: [
@@ -520,6 +518,28 @@ const carousel = (props)=>{
                                 })
                             ]
                         }, index))
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                className: "embla__prev embla__button embla__button--prev",
+                onClick: scrollPrev,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                    className: "embla__button__svg",
+                    viewBox: "137.718 -1.001 366.563 644",
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                        d: "M428.36 12.5c16.67-16.67 43.76-16.67 60.42 0 16.67 16.67 16.67 43.76 0 60.42L241.7 320c148.25 148.24 230.61 230.6 247.08 247.08 16.67 16.66 16.67 43.75 0 60.42-16.67 16.66-43.76 16.67-60.42 0-27.72-27.71-249.45-249.37-277.16-277.08a42.308 42.308 0 0 1-12.48-30.34c0-11.1 4.1-22.05 12.48-30.42C206.63 234.23 400.64 40.21 428.36 12.5z"
+                    })
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                className: "embla__next embla__button embla__button--next",
+                onClick: scrollNext,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("svg", {
+                    className: "embla__button__svg",
+                    viewBox: "0 0 238.003 238.003",
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
+                        d: "M181.776 107.719L78.705 4.648c-6.198-6.198-16.273-6.198-22.47 0s-6.198 16.273 0 22.47l91.883 91.883-91.883 91.883c-6.198 6.198-6.198 16.273 0 22.47s16.273 6.198 22.47 0l103.071-103.039a15.741 15.741 0 0 0 4.64-11.283c0-4.13-1.526-8.199-4.64-11.313z"
+                    })
                 })
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -644,7 +664,7 @@ function PortfolioPage() {
         className: "flex flex-col items-center justify-between blue-background",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                className: "text-4xl font-bold text-center text-blue-700 pb-5",
+                className: "text-4xl font-bold text-center text-blue-700 py-5",
                 children: "Portfolio"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Carousel, {
@@ -668,7 +688,7 @@ function PortfolioPage() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,5,944,542], () => (__webpack_exec__(8209)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,5,944,335], () => (__webpack_exec__(8209)));
 module.exports = __webpack_exports__;
 
 })();
