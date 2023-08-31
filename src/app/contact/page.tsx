@@ -3,11 +3,11 @@ import { Fragment } from "react";
 export default function ContactPage() {
   return (
     <Fragment>
-    <section className="flex flex-col items-center justify-between py-5 px-16 blue-background">
+    <section className="flex flex-col items-center justify-between py-24 px-16 blue-background">
       <h1 className="text-4xl font-bold text-center text-blue-700 pb-5">
         Contact
       </h1>
-      <div className="w-full flex flex-col justify-between py-24 px-16 bg-white rounded-xl">
+      <div className="w-full flex flex-col justify-between p-10 bg-white rounded-xl max-w-screen-md">
       <div className="text-xl font-bold text-blue-700 pb-5">
         <div className="text-blue-400">
           Email:

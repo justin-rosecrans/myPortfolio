@@ -7,7 +7,7 @@ import profilePicture from '../../public/profilePicture.jpg'
 export default function Home() {
   return (
     <Fragment>
-    <main className="flex flex-col items-center justify-between py-5 px-16 blue-background">
+    <main className="flex flex-col items-center justify-between py-24 px-16 blue-background">
       <h1 className="text-4xl font-bold text-center text-blue-700 pb-5">
         Justin Rosecrans - Senior Front-End Developer
       </h1>
