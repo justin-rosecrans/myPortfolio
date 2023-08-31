@@ -1,7 +1,7 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/portfolio/page": "app/portfolio/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/biography/page": "app/biography/page.js",
   "/contact/page": "app/contact/page.js",
-  "/biography/page": "app/biography/page.js"
+  "/portfolio/page": "app/portfolio/page.js"
 }
