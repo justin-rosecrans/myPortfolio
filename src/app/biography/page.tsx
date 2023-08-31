@@ -1,6 +1,6 @@
 export default function Biography() {
   return (
-    <section className="flex flex-col items-center justify-between px-16 blue-background">
+    <section className="flex flex-col items-center justify-between py-24 px-16 blue-background">
       <h1 className="block text-4xl font-bold text-left text-blue-700 py-5">Biography:</h1>
       <p className="my-6">
         Justin Rosecrans is a Senior Front End Web Developer.  

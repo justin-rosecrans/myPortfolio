@@ -74,7 +74,7 @@ const carousel: React.FC<PropType> = (props) => {
           ))}
         </div>
       </div>
-
+      
       <button
         className="embla__prev embla__button embla__button--prev"
         onClick={scrollPrev}
